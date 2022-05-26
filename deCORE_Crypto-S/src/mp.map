@@ -1,0 +1,2102 @@
+Archive member included to satisfy reference by file (symbol)
+
+../lib/libmbedcrypto.a(aes.o)
+                              ./libvccrypt.so (mbedtls_aes_init)
+../lib/libmbedcrypto.a(aesni.o)
+                              ../lib/libmbedcrypto.a(aes.o) (mbedtls_aesni_has_support)
+../lib/libmbedcrypto.a(base64.o)
+                              ./libvccrypt.so (mbedtls_base64_encode)
+../lib/libmbedcrypto.a(bignum.o)
+                              ./libvccrypt.so (mbedtls_mpi_init)
+../lib/libmbedcrypto.a(ctr_drbg.o)
+                              ./libvccrypt.so (mbedtls_ctr_drbg_init)
+../lib/libmbedcrypto.a(ecdh.o)
+                              ./libvccrypt.so (mbedtls_ecdh_compute_shared)
+../lib/libmbedcrypto.a(ecdsa.o)
+                              ./libvccrypt.so (mbedtls_ecdsa_sign)
+../lib/libmbedcrypto.a(ecp.o)
+                              ./libvccrypt.so (mbedtls_ecp_point_init)
+../lib/libmbedcrypto.a(ecp_curves.o)
+                              ./libvccrypt.so (mbedtls_ecp_group_load)
+../lib/libmbedcrypto.a(entropy.o)
+                              ./libvccrypt.so (mbedtls_entropy_init)
+../lib/libmbedcrypto.a(entropy_poll.o)
+                              ../lib/libmbedcrypto.a(entropy.o) (mbedtls_platform_entropy_poll)
+../lib/libmbedcrypto.a(gcm.o)
+                              ./libvccrypt.so (mbedtls_gcm_init)
+../lib/libmbedcrypto.a(hmac_drbg.o)
+                              ../lib/libmbedcrypto.a(ecdsa.o) (mbedtls_hmac_drbg_init)
+../lib/libmbedcrypto.a(md.o)  ./libvccrypt.so (mbedtls_md_info_from_type)
+../lib/libmbedcrypto.a(md_wrap.o)
+                              ../lib/libmbedcrypto.a(md.o) (mbedtls_sha512_info)
+../lib/libmbedcrypto.a(pk.o)  ./libvccrypt.so (mbedtls_pk_init)
+../lib/libmbedcrypto.a(pk_wrap.o)
+                              ../lib/libmbedcrypto.a(pk.o) (mbedtls_rsa_alt_info)
+../lib/libmbedcrypto.a(pkparse.o)
+                              ./libvccrypt.so (mbedtls_pk_parse_key)
+../lib/libmbedcrypto.a(pkwrite.o)
+                              ./libvccrypt.so (mbedtls_pk_write_pubkey_pem)
+../lib/libmbedcrypto.a(platform_util.o)
+                              ../lib/libmbedcrypto.a(aes.o) (mbedtls_platform_zeroize)
+../lib/libmbedcrypto.a(ripemd160.o)
+                              ../lib/libmbedcrypto.a(md_wrap.o) (mbedtls_ripemd160_init)
+../lib/libmbedcrypto.a(rsa.o)
+                              ../lib/libmbedcrypto.a(pkparse.o) (mbedtls_rsa_import)
+../lib/libmbedcrypto.a(sha1.o)
+                              ./libvccrypt.so (mbedtls_sha1_init)
+../lib/libmbedcrypto.a(sha256.o)
+                              ./libvccrypt.so (mbedtls_sha256_init)
+../lib/libmbedcrypto.a(sha512.o)
+                              ./libvccrypt.so (mbedtls_sha512_init)
+../lib/libmbedcrypto.a(timing.o)
+                              ../lib/libmbedcrypto.a(entropy_poll.o) (mbedtls_timing_hardclock)
+../lib/libmbedcrypto.a(asn1parse.o)
+                              ../lib/libmbedcrypto.a(ecdsa.o) (mbedtls_asn1_get_tag)
+../lib/libmbedcrypto.a(asn1write.o)
+                              ../lib/libmbedcrypto.a(ecdsa.o) (mbedtls_asn1_write_len)
+../lib/libmbedcrypto.a(cipher.o)
+                              ../lib/libmbedcrypto.a(gcm.o) (mbedtls_cipher_info_from_values)
+../lib/libmbedcrypto.a(cipher_wrap.o)
+                              ../lib/libmbedcrypto.a(cipher.o) (mbedtls_cipher_supported)
+../lib/libmbedcrypto.a(des.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_des_init)
+../lib/libmbedcrypto.a(md5.o)
+                              ../lib/libmbedcrypto.a(md_wrap.o) (mbedtls_md5_init)
+../lib/libmbedcrypto.a(oid.o)
+                              ../lib/libmbedcrypto.a(pkparse.o) (mbedtls_oid_get_pk_alg)
+../lib/libmbedcrypto.a(pem.o)
+                              ../lib/libmbedcrypto.a(pkparse.o) (mbedtls_pem_init)
+../lib/libmbedcrypto.a(pkcs12.o)
+                              ../lib/libmbedcrypto.a(pkparse.o) (mbedtls_pkcs12_pbe_sha1_rc4_128)
+../lib/libmbedcrypto.a(pkcs5.o)
+                              ../lib/libmbedcrypto.a(pkparse.o) (mbedtls_pkcs5_pbes2)
+../lib/libmbedcrypto.a(rsa_internal.o)
+                              ../lib/libmbedcrypto.a(rsa.o) (mbedtls_rsa_deduce_primes)
+../lib/libmbedcrypto.a(arc4.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_arc4_init)
+../lib/libmbedcrypto.a(blowfish.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_blowfish_init)
+../lib/libmbedcrypto.a(camellia.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_camellia_init)
+../lib/libmbedcrypto.a(ccm.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_ccm_init)
+../lib/libmbedcrypto.a(chacha20.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_chacha20_init)
+../lib/libmbedcrypto.a(chachapoly.o)
+                              ../lib/libmbedcrypto.a(cipher_wrap.o) (mbedtls_chachapoly_init)
+../lib/libmbedcrypto.a(poly1305.o)
+                              ../lib/libmbedcrypto.a(chachapoly.o) (mbedtls_poly1305_init)
+../lib/libmbedx509.a(x509_crl.o)
+                              ./libvccrypt.so (mbedtls_x509_crl_parse)
+../lib/libmbedx509.a(x509_crt.o)
+                              ./libvccrypt.so (mbedtls_x509_crt_parse)
+../lib/libmbedx509.a(x509write_csr.o)
+                              ./libvccrypt.so (mbedtls_x509write_csr_init)
+../lib/libmbedx509.a(x509.o)  ../lib/libmbedx509.a(x509_crl.o) (mbedtls_x509_get_serial)
+../lib/libmbedx509.a(x509_create.o)
+                              ../lib/libmbedx509.a(x509write_csr.o) (mbedtls_x509_string_to_names)
+../lib/libmbedx509.a(certs.o)
+                              ../lib/libmbedx509.a(x509.o) (mbedtls_test_cli_crt_len)
+/usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+                              ../lib/libmbedcrypto.a(bignum.o) (__udivti3)
+//usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+tst_sto_asym_priv_key
+                    0x30              /tmp/ccSJt3NP.o
+mbedtls_cipher_supported
+                    0xdc              ../lib/libmbedcrypto.a(cipher_wrap.o)
+tst_sto_asym_pub_key
+                    0x30              /tmp/ccSJt3NP.o
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSJt3NP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(aes.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(aesni.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(base64.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(bignum.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ctr_drbg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ecdh.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ecdsa.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ecp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ecp_curves.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(entropy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(entropy_poll.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(gcm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(hmac_drbg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(md.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(md_wrap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pk_wrap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pkparse.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pkwrite.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(platform_util.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ripemd160.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(rsa.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(sha1.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(sha256.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(sha512.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(timing.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(asn1parse.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(asn1write.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(cipher.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(cipher_wrap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(des.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(md5.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(oid.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pem.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pkcs12.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(pkcs5.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(rsa_internal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(arc4.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(blowfish.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(camellia.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(ccm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(chacha20.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(chachapoly.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedcrypto.a(poly1305.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(x509_crl.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(x509_crt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(x509write_csr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(x509.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(x509_create.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib/libmbedx509.a(certs.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 //usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+LOAD /tmp/ccSJt3NP.o
+LOAD ./libvccrypt.so
+LOAD ../lib/libmbedtls.a
+LOAD ../lib/libmbedcrypto.a
+LOAD ../lib/libmbedx509.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD //lib/x86_64-linux-gnu/libc.so.6
+LOAD //usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD //lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x00000000000002a8       0x1c
+ *(.interp)
+ .interp        0x00000000000002a8       0x1c /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x00000000000002c4       0x20
+ .note.ABI-tag  0x00000000000002c4       0x20 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x00000000000002e4       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002e4       0x24 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000308      0x3a4
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000308      0x3a4 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000006b0     0x1128
+ *(.dynsym)
+ .dynsym        0x00000000000006b0     0x1128 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x00000000000017d8      0xca3
+ *(.dynstr)
+ .dynstr        0x00000000000017d8      0xca3 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x000000000000247c      0x16e
+ *(.gnu.version)
+ .gnu.version   0x000000000000247c      0x16e /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x00000000000025f0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000025f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x00000000000025f0       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000025f0       0x80 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000002670     0x4560
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000002670        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000002670      0x288 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000028f8      0x5d0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local
+                0x0000000000002ec8     0x3c30 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel
+                0x0000000000006af8       0x18 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000006b10       0x90 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000006ba0        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000006ba0        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000006ba0       0x18 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000006bb8       0x18 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000006bd0      0x768
+ *(.rela.plt)
+ .rela.plt      0x0000000000006bd0      0x768 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+                0x0000000000008000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000008000       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000008000       0x12 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000008000                _init
+ .init          0x0000000000008012        0x5 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000008020      0x500
+ *(.plt)
+ .plt           0x0000000000008020      0x500 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000008030                vc_enveloped_seal
+                0x0000000000008040                vc_hmac_genkey
+                0x0000000000008050                free@@GLIBC_2.2.5
+                0x0000000000008060                putchar@@GLIBC_2.2.5
+                0x0000000000008070                vc_verify_crt
+                0x0000000000008080                __errno_location@@GLIBC_2.2.5
+                0x0000000000008090                vc_rsa_decrypt
+                0x00000000000080a0                vc_rsa_sign
+                0x00000000000080b0                strncmp@@GLIBC_2.2.5
+                0x00000000000080c0                vc_ecc_dec
+                0x00000000000080d0                puts@@GLIBC_2.2.5
+                0x00000000000080e0                ferror@@GLIBC_2.2.5
+                0x00000000000080f0                fread@@GLIBC_2.2.5
+                0x0000000000008100                vc_rsa_sign_file
+                0x0000000000008110                vc_delete_crt
+                0x0000000000008120                clock@@GLIBC_2.2.5
+                0x0000000000008130                fclose@@GLIBC_2.2.5
+                0x0000000000008140                __xstat64@@GLIBC_2.2.5
+                0x0000000000008150                opendir@@GLIBC_2.2.5
+                0x0000000000008160                vc_CalcHmac
+                0x0000000000008170                vc_delete_initso
+                0x0000000000008180                vc_gen_csr
+                0x0000000000008190                strlen@@GLIBC_2.2.5
+                0x00000000000081a0                vc_storage_crt
+                0x00000000000081b0                printf@@GLIBC_2.2.5
+                0x00000000000081c0                snprintf@@GLIBC_2.2.5
+                0x00000000000081d0                vc_ecc_enc
+                0x00000000000081e0                gmtime_r@@GLIBC_2.2.5
+                0x00000000000081f0                gettimeofday@@GLIBC_2.2.5
+                0x0000000000008200                memset@@GLIBC_2.2.5
+                0x0000000000008210                vc_storage_key
+                0x0000000000008220                vc_init
+                0x0000000000008230                alarm@@GLIBC_2.2.5
+                0x0000000000008240                closedir@@GLIBC_2.2.5
+                0x0000000000008250                memcmp@@GLIBC_2.2.5
+                0x0000000000008260                fgets@@GLIBC_2.2.5
+                0x0000000000008270                vc_cmac_genkey
+                0x0000000000008280                vc_ecdsa_sign
+                0x0000000000008290                vc_aes_encrypt
+                0x00000000000082a0                vc_ecdh_shared_key
+                0x00000000000082b0                calloc@@GLIBC_2.2.5
+                0x00000000000082c0                strcmp@@GLIBC_2.2.5
+                0x00000000000082d0                vc_aes_decrypt
+                0x00000000000082e0                signal@@GLIBC_2.2.5
+                0x00000000000082f0                vc_storage_tmp_key
+                0x0000000000008300                vc_CalcCmac
+                0x0000000000008310                syscall@@GLIBC_2.2.5
+                0x0000000000008320                ftell@@GLIBC_2.2.5
+                0x0000000000008330                fopen64@@GLIBC_2.2.5
+                0x0000000000008340                vc_random_gen
+                0x0000000000008350                vc_rsa_encrypt
+                0x0000000000008360                memcpy@@GLIBC_2.14
+                0x0000000000008370                vc_VerifyCmac
+                0x0000000000008380                time@@GLIBC_2.2.5
+                0x0000000000008390                dlopen@@GLIBC_2.2.5
+                0x00000000000083a0                fseek@@GLIBC_2.2.5
+                0x00000000000083b0                dlclose@@GLIBC_2.2.5
+                0x00000000000083c0                vc_hash
+                0x00000000000083d0                vc_enveloped_openseal
+                0x00000000000083e0                vc_parse_crt_pubkey
+                0x00000000000083f0                vc_rsa_verify_file
+                0x0000000000008400                vc_delete_key
+                0x0000000000008410                memmove@@GLIBC_2.2.5
+                0x0000000000008420                readdir64@@GLIBC_2.2.5
+                0x0000000000008430                fopen@@GLIBC_2.2.5
+                0x0000000000008440                vc_Base64Encode
+                0x0000000000008450                vc_sym_genkey
+                0x0000000000008460                __isoc99_scanf@@GLIBC_2.7
+                0x0000000000008470                sprintf@@GLIBC_2.2.5
+                0x0000000000008480                fwrite@@GLIBC_2.2.5
+                0x0000000000008490                vc_ecdsa_verify
+                0x00000000000084a0                vc_rsa_verify
+                0x00000000000084b0                dlsym@@GLIBC_2.2.5
+                0x00000000000084c0                vc_asym_genkey
+                0x00000000000084d0                vc_hash_file
+                0x00000000000084e0                strstr@@GLIBC_2.2.5
+                0x00000000000084f0                vc_Base64Decode
+                0x0000000000008500                rand@@GLIBC_2.2.5
+                0x0000000000008510                vc_delete_tmp_key
+ *(.iplt)
+
+.plt.got        0x0000000000008520        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000008520        0x8 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000008520                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000008530    0x37041
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008530       0x2b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000008530                _start
+ .text          0x000000000000855b        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x000000000000855b        0x5 
+ .text          0x0000000000008560       0xb5 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+ .text          0x0000000000008615     0x4451 /tmp/ccSJt3NP.o
+                0x0000000000008615                Hex_PRINTF
+                0x000000000000870e                TST_RSA_SIGN
+                0x0000000000008839                TST_RSA_VERIFY
+                0x000000000000892b                TST_RSA_SIGN_file
+                0x0000000000008a52                TST_RSA_VERIFY_file
+                0x0000000000008af4                TST_GET_RANDOM
+                0x0000000000008ba5                TST_RSA_GEN_STO_ENC_DEC
+                0x0000000000008ff1                TST_ECC_GEN_STO_SIG_VEF
+                0x00000000000093d1                TST_ECDH_25519
+                0x0000000000009760                TST_AES_GEN_STO_ENC_DEC_MOD
+                0x0000000000009b17                TST_AES_GEN_STO_ENC_DEC_gcm
+                0x000000000000a03e                TST_STO_DEC_PARSE_CRT_KEY
+                0x000000000000a21d                TST_VER_CRT
+                0x000000000000a418                TST_GEN_CSR
+                0x000000000000a47c                TST_CALCHMAC
+                0x000000000000a71e                TST_CALCCMAC
+                0x000000000000a9bd                TST_HASH
+                0x000000000000ab39                TST_BASE64_ENCODE
+                0x000000000000abdc                TST_BASE64_DECODE
+                0x000000000000ac8b                TST_ENVELOPE_SEAL_OPEN
+                0x000000000000b06e                TST_ECC_GEN_ENC_DEC
+                0x000000000000bb69                TST_AES_TMP_GEN_STO_ENC_DEC_MOD
+                0x000000000000bf5d                TST_RSA_TMP_GEN_STO_ENC_DEC
+                0x000000000000c3a9                t_get_info
+                0x000000000000c41c                t_get_info2
+                0x000000000000c494                TST_INIT_SO
+                0x000000000000c58b                TST_DELETE_LIB
+                0x000000000000c59d                TST_INIT
+                0x000000000000c616                COST_TEST
+                0x000000000000c6dc                main
+ *fill*         0x000000000000ca66        0xa 
+ .text          0x000000000000ca70     0x2627 ../lib/libmbedcrypto.a(aes.o)
+                0x000000000000cdc0                mbedtls_aes_init
+                0x000000000000cdf0                mbedtls_aes_free
+                0x000000000000ce10                mbedtls_aes_xts_init
+                0x000000000000ce80                mbedtls_aes_xts_free
+                0x000000000000ceb0                mbedtls_aes_setkey_enc
+                0x000000000000d1f0                mbedtls_aes_setkey_dec
+                0x000000000000d3b0                mbedtls_aes_xts_setkey_enc
+                0x000000000000d410                mbedtls_aes_xts_setkey_dec
+                0x000000000000d470                mbedtls_internal_aes_encrypt
+                0x000000000000d930                mbedtls_aes_encrypt
+                0x000000000000d940                mbedtls_internal_aes_decrypt
+                0x000000000000de10                mbedtls_aes_decrypt
+                0x000000000000de20                mbedtls_aes_crypt_ecb
+                0x000000000000dea0                mbedtls_aes_crypt_cbc
+                0x000000000000df90                mbedtls_aes_crypt_xts
+                0x000000000000e190                mbedtls_aes_crypt_cfb128
+                0x000000000000e2a0                mbedtls_aes_crypt_cfb8
+                0x000000000000e360                mbedtls_aes_crypt_ofb
+                0x000000000000e410                mbedtls_aes_crypt_ctr
+                0x000000000000e4f0                mbedtls_aes_self_test
+ *fill*         0x000000000000f097        0x9 
+ .text          0x000000000000f0a0      0x4ed ../lib/libmbedcrypto.a(aesni.o)
+                0x000000000000f0a0                mbedtls_aesni_has_support
+                0x000000000000f0e0                mbedtls_aesni_crypt_ecb
+                0x000000000000f140                mbedtls_aesni_gcm_mult
+                0x000000000000f2b0                mbedtls_aesni_inverse_key
+                0x000000000000f320                mbedtls_aesni_setkey_enc
+ *fill*         0x000000000000f58d        0x3 
+ .text          0x000000000000f590      0x605 ../lib/libmbedcrypto.a(base64.o)
+                0x000000000000f720                mbedtls_base64_encode
+                0x000000000000f740                mbedtls_base64_decode
+                0x000000000000f960                mbedtls_base64_self_test
+ *fill*         0x000000000000fb95        0xb 
+ .text          0x000000000000fba0     0x55bb ../lib/libmbedcrypto.a(bignum.o)
+                0x0000000000010050                mbedtls_mpi_init
+                0x0000000000010070                mbedtls_mpi_free
+                0x00000000000100c0                mbedtls_mpi_grow
+                0x0000000000010160                mbedtls_mpi_shrink
+                0x0000000000010280                mbedtls_mpi_copy
+                0x0000000000010370                mbedtls_mpi_swap
+                0x0000000000010390                mbedtls_mpi_safe_cond_assign
+                0x0000000000010450                mbedtls_mpi_safe_cond_swap
+                0x0000000000010530                mbedtls_mpi_lset
+                0x0000000000010590                mbedtls_mpi_get_bit
+                0x00000000000105c0                mbedtls_mpi_set_bit
+                0x0000000000010640                mbedtls_mpi_lsb
+                0x0000000000010690                mbedtls_mpi_bitlen
+                0x0000000000010710                mbedtls_mpi_size
+                0x0000000000010720                mbedtls_mpi_read_binary
+                0x00000000000107d0                mbedtls_mpi_write_binary
+                0x00000000000108b0                mbedtls_mpi_shift_l
+                0x00000000000109c0                mbedtls_mpi_shift_r
+                0x0000000000010ac0                mbedtls_mpi_cmp_abs
+                0x0000000000010d70                mbedtls_mpi_cmp_mpi
+                0x0000000000010e80                mbedtls_mpi_lt_mpi_ct
+                0x0000000000010f80                mbedtls_mpi_cmp_int
+                0x0000000000010fd0                mbedtls_mpi_add_abs
+                0x00000000000110f0                mbedtls_mpi_sub_abs
+                0x00000000000111d0                mbedtls_mpi_add_mpi
+                0x0000000000011250                mbedtls_mpi_sub_mpi
+                0x00000000000112d0                mbedtls_mpi_add_int
+                0x0000000000011320                mbedtls_mpi_sub_int
+                0x0000000000011370                mbedtls_mpi_mul_mpi
+                0x0000000000011530                mbedtls_mpi_read_string
+                0x0000000000011810                mbedtls_mpi_read_file
+                0x0000000000011990                mbedtls_mpi_mul_int
+                0x00000000000119d0                mbedtls_mpi_div_mpi
+                0x0000000000012230                mbedtls_mpi_div_int
+                0x0000000000012280                mbedtls_mpi_mod_mpi
+                0x0000000000012390                mbedtls_mpi_mod_int
+                0x00000000000123e0                mbedtls_mpi_write_string
+                0x0000000000012690                mbedtls_mpi_write_file
+                0x0000000000012890                mbedtls_mpi_exp_mod
+                0x00000000000133a0                mbedtls_mpi_gcd
+                0x00000000000136f0                mbedtls_mpi_fill_random
+                0x0000000000013cb0                mbedtls_mpi_inv_mod
+                0x0000000000014450                mbedtls_mpi_is_prime_ext
+                0x0000000000014550                mbedtls_mpi_is_prime
+                0x0000000000014560                mbedtls_mpi_gen_prime
+                0x00000000000149a0                mbedtls_mpi_self_test
+ *fill*         0x000000000001515b        0x5 
+ .text          0x0000000000015160      0xde6 ../lib/libmbedcrypto.a(ctr_drbg.o)
+                0x00000000000155b0                mbedtls_ctr_drbg_init
+                0x00000000000155e0                mbedtls_ctr_drbg_free
+                0x0000000000015600                mbedtls_ctr_drbg_set_prediction_resistance
+                0x0000000000015610                mbedtls_ctr_drbg_set_entropy_len
+                0x0000000000015620                mbedtls_ctr_drbg_set_reseed_interval
+                0x0000000000015630                mbedtls_ctr_drbg_update_ret
+                0x0000000000015650                mbedtls_ctr_drbg_update
+                0x0000000000015670                mbedtls_ctr_drbg_reseed
+                0x0000000000015770                mbedtls_ctr_drbg_seed
+                0x0000000000015800                mbedtls_ctr_drbg_seed_entropy_len
+                0x0000000000015810                mbedtls_ctr_drbg_random_with_add
+                0x0000000000015a30                mbedtls_ctr_drbg_random
+                0x0000000000015a40                mbedtls_ctr_drbg_write_seed_file
+                0x0000000000015ad0                mbedtls_ctr_drbg_update_seed_file
+                0x0000000000015be0                mbedtls_ctr_drbg_self_test
+ *fill*         0x0000000000015f46        0xa 
+ .text          0x0000000000015f50      0x57f ../lib/libmbedcrypto.a(ecdh.o)
+                0x0000000000016040                mbedtls_ecdh_gen_public
+                0x0000000000016050                mbedtls_ecdh_compute_shared
+                0x0000000000016060                mbedtls_ecdh_init
+                0x00000000000160d0                mbedtls_ecdh_setup
+                0x00000000000160f0                mbedtls_ecdh_free
+                0x0000000000016170                mbedtls_ecdh_make_params
+                0x0000000000016240                mbedtls_ecdh_read_params
+                0x00000000000162b0                mbedtls_ecdh_get_params
+                0x0000000000016350                mbedtls_ecdh_make_public
+                0x00000000000163e0                mbedtls_ecdh_read_public
+                0x0000000000016430                mbedtls_ecdh_calc_secret
+ *fill*         0x00000000000164cf        0x1 
+ .text          0x00000000000164d0      0xbe1 ../lib/libmbedcrypto.a(ecdsa.o)
+                0x0000000000016cb0                mbedtls_ecdsa_sign
+                0x0000000000016cd0                mbedtls_ecdsa_sign_det
+                0x0000000000016cf0                mbedtls_ecdsa_sign_det_ext
+                0x0000000000016d00                mbedtls_ecdsa_verify
+                0x0000000000016d10                mbedtls_ecdsa_write_signature_restartable
+                0x0000000000016e80                mbedtls_ecdsa_write_signature
+                0x0000000000016ea0                mbedtls_ecdsa_write_signature_det
+                0x0000000000016ed0                mbedtls_ecdsa_read_signature_restartable
+                0x0000000000016fd0                mbedtls_ecdsa_read_signature
+                0x0000000000016fe0                mbedtls_ecdsa_genkey
+                0x0000000000017020                mbedtls_ecdsa_from_keypair
+                0x0000000000017090                mbedtls_ecdsa_init
+                0x00000000000170a0                mbedtls_ecdsa_free
+ *fill*         0x00000000000170b1        0xf 
+ .text          0x00000000000170c0     0x3ff4 ../lib/libmbedcrypto.a(ecp.o)
+                0x0000000000018250                mbedtls_ecp_curve_list
+                0x0000000000018260                mbedtls_ecp_grp_id_list
+                0x00000000000182d0                mbedtls_ecp_curve_info_from_grp_id
+                0x0000000000018310                mbedtls_ecp_curve_info_from_tls_id
+                0x0000000000018350                mbedtls_ecp_curve_info_from_name
+                0x00000000000183b0                mbedtls_ecp_point_init
+                0x00000000000183d0                mbedtls_ecp_group_init
+                0x0000000000018470                mbedtls_ecp_keypair_init
+                0x00000000000184a0                mbedtls_ecp_point_free
+                0x00000000000184c0                mbedtls_ecp_group_free
+                0x0000000000018580                mbedtls_ecp_keypair_free
+                0x00000000000185c0                mbedtls_ecp_copy
+                0x0000000000018610                mbedtls_ecp_group_copy
+                0x0000000000018620                mbedtls_ecp_set_zero
+                0x0000000000019030                mbedtls_ecp_is_zero
+                0x0000000000019050                mbedtls_ecp_point_cmp
+                0x00000000000190a0                mbedtls_ecp_point_read_string
+                0x00000000000190f0                mbedtls_ecp_point_write_binary
+                0x00000000000191f0                mbedtls_ecp_point_read_binary
+                0x00000000000192b0                mbedtls_ecp_tls_read_point
+                0x00000000000192f0                mbedtls_ecp_tls_write_point
+                0x0000000000019330                mbedtls_ecp_tls_read_group_id
+                0x00000000000193b0                mbedtls_ecp_tls_read_group
+                0x00000000000193e0                mbedtls_ecp_tls_write_group
+                0x0000000000019450                mbedtls_ecp_check_pubkey
+                0x0000000000019710                mbedtls_ecp_check_privkey
+                0x00000000000197c0                mbedtls_ecp_mul_restartable
+                0x000000000001a4c0                mbedtls_ecp_mul
+                0x000000000001a660                mbedtls_ecp_muladd_restartable
+                0x000000000001a680                mbedtls_ecp_muladd
+                0x000000000001a6b0                mbedtls_ecp_gen_privkey
+                0x000000000001a8c0                mbedtls_ecp_gen_keypair_base
+                0x000000000001a920                mbedtls_ecp_gen_keypair
+                0x000000000001a940                mbedtls_ecp_gen_key
+                0x000000000001a990                mbedtls_ecp_check_pub_priv
+                0x000000000001aad0                mbedtls_ecp_self_test
+ *fill*         0x000000000001b0b4        0xc 
+ .text          0x000000000001b0c0     0x25c2 ../lib/libmbedcrypto.a(ecp_curves.o)
+                0x000000000001cbe0                mbedtls_ecp_group_load
+ *fill*         0x000000000001d682        0xe 
+ .text          0x000000000001d690      0x9d3 ../lib/libmbedcrypto.a(entropy.o)
+                0x000000000001da30                mbedtls_entropy_init
+                0x000000000001db20                mbedtls_entropy_free
+                0x000000000001db50                mbedtls_entropy_add_source
+                0x000000000001dba0                mbedtls_entropy_update_manual
+                0x000000000001dbb0                mbedtls_entropy_gather
+                0x000000000001dbc0                mbedtls_entropy_func
+                0x000000000001dbe0                mbedtls_entropy_write_seed_file
+                0x000000000001dc70                mbedtls_entropy_update_seed_file
+                0x000000000001dd70                mbedtls_entropy_self_test
+ *fill*         0x000000000001e063        0xd 
+ .text          0x000000000001e070       0xe1 ../lib/libmbedcrypto.a(entropy_poll.o)
+                0x000000000001e070                mbedtls_platform_entropy_poll
+                0x000000000001e120                mbedtls_hardclock_poll
+ *fill*         0x000000000001e151        0xf 
+ .text          0x000000000001e160      0xfd5 ../lib/libmbedcrypto.a(gcm.o)
+                0x000000000001e2e0                mbedtls_gcm_init
+                0x000000000001e310                mbedtls_gcm_setkey
+                0x000000000001e4c0                mbedtls_gcm_starts
+                0x000000000001e6c0                mbedtls_gcm_update
+                0x000000000001e830                mbedtls_gcm_finish
+                0x000000000001e920                mbedtls_gcm_crypt_and_tag
+                0x000000000001e9b0                mbedtls_gcm_auth_decrypt
+                0x000000000001ea40                mbedtls_gcm_free
+                0x000000000001ea60                mbedtls_gcm_self_test
+ *fill*         0x000000000001f135        0xb 
+ .text          0x000000000001f140      0xc4b ../lib/libmbedcrypto.a(hmac_drbg.o)
+                0x000000000001f1a0                mbedtls_hmac_drbg_init
+                0x000000000001f1d0                mbedtls_hmac_drbg_update_ret
+                0x000000000001f420                mbedtls_hmac_drbg_update
+                0x000000000001f430                mbedtls_hmac_drbg_seed_buf
+                0x000000000001f510                mbedtls_hmac_drbg_reseed
+                0x000000000001f520                mbedtls_hmac_drbg_seed
+                0x000000000001f650                mbedtls_hmac_drbg_set_prediction_resistance
+                0x000000000001f660                mbedtls_hmac_drbg_set_entropy_len
+                0x000000000001f670                mbedtls_hmac_drbg_set_reseed_interval
+                0x000000000001f680                mbedtls_hmac_drbg_random_with_add
+                0x000000000001f870                mbedtls_hmac_drbg_random
+                0x000000000001f880                mbedtls_hmac_drbg_free
+                0x000000000001f8a0                mbedtls_hmac_drbg_write_seed_file
+                0x000000000001f930                mbedtls_hmac_drbg_update_seed_file
+                0x000000000001fa40                mbedtls_hmac_drbg_self_test
+ *fill*         0x000000000001fd8b        0x5 
+ .text          0x000000000001fd90      0x893 ../lib/libmbedcrypto.a(md.o)
+                0x000000000001fd90                mbedtls_md_list
+                0x000000000001fda0                mbedtls_md_info_from_string
+                0x000000000001fee0                mbedtls_md_info_from_type
+                0x000000000001ff80                mbedtls_md_init
+                0x000000000001ff90                mbedtls_md_free
+                0x000000000001fff0                mbedtls_md_clone
+                0x0000000000020030                mbedtls_md_setup
+                0x00000000000200b0                mbedtls_md_init_ctx
+                0x00000000000200c0                mbedtls_md_starts
+                0x00000000000200e0                mbedtls_md_update
+                0x0000000000020100                mbedtls_md_finish
+                0x0000000000020120                mbedtls_md
+                0x0000000000020140                mbedtls_md_file
+                0x0000000000020270                mbedtls_md_hmac_starts
+                0x00000000000203b0                mbedtls_md_hmac_update
+                0x00000000000203e0                mbedtls_md_hmac_finish
+                0x0000000000020490                mbedtls_md_hmac_reset
+                0x00000000000204f0                mbedtls_md_hmac
+                0x00000000000205b0                mbedtls_md_process
+                0x00000000000205d0                mbedtls_md_get_size
+                0x00000000000205f0                mbedtls_md_get_type
+                0x0000000000020610                mbedtls_md_get_name
+ *fill*         0x0000000000020623        0xd 
+ .text          0x0000000000020630      0x377 ../lib/libmbedcrypto.a(md_wrap.o)
+ *fill*         0x00000000000209a7        0x9 
+ .text          0x00000000000209b0      0x553 ../lib/libmbedcrypto.a(pk.o)
+                0x00000000000209b0                mbedtls_pk_init
+                0x00000000000209c0                mbedtls_pk_free
+                0x0000000000020a00                mbedtls_pk_info_from_type
+                0x0000000000020a50                mbedtls_pk_setup
+                0x0000000000020a90                mbedtls_pk_setup_rsa_alt
+                0x0000000000020af0                mbedtls_pk_can_do
+                0x0000000000020b10                mbedtls_pk_verify_restartable
+                0x0000000000020ba0                mbedtls_pk_verify
+                0x0000000000020bb0                mbedtls_pk_verify_ext
+                0x0000000000020d00                mbedtls_pk_sign_restartable
+                0x0000000000020db0                mbedtls_pk_sign
+                0x0000000000020dd0                mbedtls_pk_decrypt
+                0x0000000000020e00                mbedtls_pk_encrypt
+                0x0000000000020e30                mbedtls_pk_check_pair
+                0x0000000000020e80                mbedtls_pk_get_bitlen
+                0x0000000000020ea0                mbedtls_pk_debug
+                0x0000000000020ed0                mbedtls_pk_get_name
+                0x0000000000020ef0                mbedtls_pk_get_type
+ *fill*         0x0000000000020f03        0xd 
+ .text          0x0000000000020f10      0x7d7 ../lib/libmbedcrypto.a(pk_wrap.o)
+ *fill*         0x00000000000216e7        0x9 
+ .text          0x00000000000216f0     0x1a27 ../lib/libmbedcrypto.a(pkparse.o)
+                0x0000000000022750                mbedtls_pk_load_file
+                0x0000000000022870                mbedtls_pk_parse_subpubkey
+                0x00000000000229f0                mbedtls_pk_parse_key
+                0x0000000000022df0                mbedtls_pk_parse_keyfile
+                0x0000000000022e90                mbedtls_pk_parse_public_key
+                0x00000000000230c0                mbedtls_pk_parse_public_keyfile
+ *fill*         0x0000000000023117        0x9 
+ .text          0x0000000000023120      0x9f7 ../lib/libmbedcrypto.a(pkwrite.o)
+                0x00000000000231f0                mbedtls_pk_write_pubkey
+                0x0000000000023350                mbedtls_pk_write_pubkey_der
+                0x00000000000234d0                mbedtls_pk_write_key_der
+                0x00000000000239f0                mbedtls_pk_write_pubkey_pem
+                0x0000000000023a60                mbedtls_pk_write_key_pem
+ *fill*         0x0000000000023b17        0x9 
+ .text          0x0000000000023b20       0x25 ../lib/libmbedcrypto.a(platform_util.o)
+                0x0000000000023b20                mbedtls_platform_zeroize
+                0x0000000000023b40                mbedtls_platform_gmtime_r
+ *fill*         0x0000000000023b45        0xb 
+ .text          0x0000000000023b50     0x1ba9 ../lib/libmbedcrypto.a(ripemd160.o)
+                0x0000000000023b50                mbedtls_ripemd160_init
+                0x0000000000023b80                mbedtls_ripemd160_free
+                0x0000000000023ba0                mbedtls_ripemd160_clone
+                0x0000000000023be0                mbedtls_ripemd160_starts_ret
+                0x0000000000023c10                mbedtls_ripemd160_starts
+                0x0000000000023c40                mbedtls_internal_ripemd160_process
+                0x00000000000253b0                mbedtls_ripemd160_process
+                0x00000000000253c0                mbedtls_ripemd160_update_ret
+                0x00000000000253e0                mbedtls_ripemd160_update
+                0x0000000000025400                mbedtls_ripemd160_finish_ret
+                0x0000000000025510                mbedtls_ripemd160_finish
+                0x0000000000025520                mbedtls_ripemd160_ret
+                0x00000000000255b0                mbedtls_ripemd160
+                0x00000000000255c0                mbedtls_ripemd160_self_test
+ *fill*         0x00000000000256f9        0x7 
+ .text          0x0000000000025700     0x3844 ../lib/libmbedcrypto.a(rsa.o)
+                0x0000000000025c50                mbedtls_rsa_import
+                0x0000000000025d10                mbedtls_rsa_import_raw
+                0x0000000000025de0                mbedtls_rsa_complete
+                0x0000000000026070                mbedtls_rsa_export_raw
+                0x0000000000026230                mbedtls_rsa_export
+                0x00000000000263a0                mbedtls_rsa_export_crt
+                0x0000000000026490                mbedtls_rsa_init
+                0x00000000000264d0                mbedtls_rsa_set_padding
+                0x00000000000264e0                mbedtls_rsa_get_len
+                0x00000000000264f0                mbedtls_rsa_check_pubkey
+                0x0000000000026560                mbedtls_rsa_check_privkey
+                0x0000000000026600                mbedtls_rsa_gen_key
+                0x0000000000026960                mbedtls_rsa_check_pub_priv
+                0x00000000000269c0                mbedtls_rsa_public
+                0x0000000000026ac0                mbedtls_rsa_private
+                0x0000000000027420                mbedtls_rsa_rsaes_oaep_encrypt
+                0x0000000000027660                mbedtls_rsa_rsaes_pkcs1_v15_encrypt
+                0x0000000000027800                mbedtls_rsa_pkcs1_encrypt
+                0x0000000000027860                mbedtls_rsa_rsaes_oaep_decrypt
+                0x0000000000027b60                mbedtls_rsa_rsaes_pkcs1_v15_decrypt
+                0x0000000000027e30                mbedtls_rsa_pkcs1_decrypt
+                0x0000000000027e90                mbedtls_rsa_rsassa_pss_sign
+                0x0000000000028240                mbedtls_rsa_rsassa_pkcs1_v15_sign
+                0x00000000000283e0                mbedtls_rsa_pkcs1_sign
+                0x0000000000028410                mbedtls_rsa_rsassa_pss_verify_ext
+                0x00000000000286f0                mbedtls_rsa_rsassa_pss_verify
+                0x0000000000028720                mbedtls_rsa_rsassa_pkcs1_v15_verify
+                0x0000000000028890                mbedtls_rsa_pkcs1_verify
+                0x00000000000288f0                mbedtls_rsa_copy
+                0x0000000000028a70                mbedtls_rsa_free
+                0x0000000000028a90                mbedtls_rsa_self_test
+ *fill*         0x0000000000028f44        0xc 
+ .text          0x0000000000028f50     0x1907 ../lib/libmbedcrypto.a(sha1.o)
+                0x0000000000028f50                mbedtls_sha1_init
+                0x0000000000028f80                mbedtls_sha1_free
+                0x0000000000028fa0                mbedtls_sha1_clone
+                0x0000000000028fe0                mbedtls_sha1_starts_ret
+                0x0000000000029010                mbedtls_sha1_starts
+                0x0000000000029040                mbedtls_internal_sha1_process
+                0x000000000002a390                mbedtls_sha1_process
+                0x000000000002a3a0                mbedtls_sha1_update_ret
+                0x000000000002a3c0                mbedtls_sha1_update
+                0x000000000002a3e0                mbedtls_sha1_finish_ret
+                0x000000000002a5c0                mbedtls_sha1_finish
+                0x000000000002a5d0                mbedtls_sha1_ret
+                0x000000000002a660                mbedtls_sha1
+                0x000000000002a670                mbedtls_sha1_self_test
+ *fill*         0x000000000002a857        0x9 
+ .text          0x000000000002a860     0x14ea ../lib/libmbedcrypto.a(sha256.o)
+                0x000000000002a860                mbedtls_sha256_init
+                0x000000000002a890                mbedtls_sha256_free
+                0x000000000002a8b0                mbedtls_sha256_clone
+                0x000000000002a900                mbedtls_sha256_starts_ret
+                0x000000000002a990                mbedtls_sha256_starts
+                0x000000000002aa20                mbedtls_internal_sha256_process
+                0x000000000002b6a0                mbedtls_sha256_process
+                0x000000000002b6b0                mbedtls_sha256_update_ret
+                0x000000000002b6d0                mbedtls_sha256_update
+                0x000000000002b6f0                mbedtls_sha256_finish_ret
+                0x000000000002b920                mbedtls_sha256_finish
+                0x000000000002b930                mbedtls_sha256_ret
+                0x000000000002ba30                mbedtls_sha256
+                0x000000000002ba40                mbedtls_sha256_self_test
+ *fill*         0x000000000002bd4a        0x6 
+ .text          0x000000000002bd50     0x141a ../lib/libmbedcrypto.a(sha512.o)
+                0x000000000002bd50                mbedtls_sha512_init
+                0x000000000002bd80                mbedtls_sha512_free
+                0x000000000002bda0                mbedtls_sha512_clone
+                0x000000000002be40                mbedtls_sha512_starts_ret
+                0x000000000002bf50                mbedtls_sha512_starts
+                0x000000000002c060                mbedtls_internal_sha512_process
+                0x000000000002c7e0                mbedtls_sha512_process
+                0x000000000002c7f0                mbedtls_sha512_update_ret
+                0x000000000002c810                mbedtls_sha512_update
+                0x000000000002c830                mbedtls_sha512_finish_ret
+                0x000000000002cc40                mbedtls_sha512_finish
+                0x000000000002cc50                mbedtls_sha512_ret
+                0x000000000002cdc0                mbedtls_sha512
+                0x000000000002cdd0                mbedtls_sha512_self_test
+ *fill*         0x000000000002d16a        0x6 
+ .text          0x000000000002d170      0x5ce ../lib/libmbedcrypto.a(timing.o)
+                0x000000000002d230                mbedtls_timing_hardclock
+                0x000000000002d240                mbedtls_timing_get_timer
+                0x000000000002d270                mbedtls_set_alarm
+                0x000000000002d2b0                mbedtls_timing_set_delay
+                0x000000000002d2d0                mbedtls_timing_get_delay
+                0x000000000002d310                mbedtls_timing_self_test
+ *fill*         0x000000000002d73e        0x2 
+ .text          0x000000000002d740      0x752 ../lib/libmbedcrypto.a(asn1parse.o)
+                0x000000000002d740                mbedtls_asn1_get_len
+                0x000000000002d850                mbedtls_asn1_get_tag
+                0x000000000002d890                mbedtls_asn1_get_bool
+                0x000000000002d900                mbedtls_asn1_get_int
+                0x000000000002d9a0                mbedtls_asn1_get_mpi
+                0x000000000002da10                mbedtls_asn1_get_bitstring
+                0x000000000002daa0                mbedtls_asn1_get_bitstring_null
+                0x000000000002db10                mbedtls_asn1_get_sequence_of
+                0x000000000002dc40                mbedtls_asn1_get_alg
+                0x000000000002dd60                mbedtls_asn1_get_alg_null
+                0x000000000002ddb0                mbedtls_asn1_free_named_data
+                0x000000000002ddf0                mbedtls_asn1_free_named_data_list
+                0x000000000002de50                mbedtls_asn1_find_named_data
+ *fill*         0x000000000002de92        0xe 
+ .text          0x000000000002dea0      0x918 ../lib/libmbedcrypto.a(asn1write.o)
+                0x000000000002dea0                mbedtls_asn1_write_len
+                0x000000000002e050                mbedtls_asn1_write_tag
+                0x000000000002e080                mbedtls_asn1_write_raw_buffer
+                0x000000000002e0d0                mbedtls_asn1_write_mpi
+                0x000000000002e1a0                mbedtls_asn1_write_null
+                0x000000000002e1f0                mbedtls_asn1_write_oid
+                0x000000000002e280                mbedtls_asn1_write_algorithm_identifier
+                0x000000000002e330                mbedtls_asn1_write_bool
+                0x000000000002e390                mbedtls_asn1_write_int
+                0x000000000002e430                mbedtls_asn1_write_tagged_string
+                0x000000000002e4d0                mbedtls_asn1_write_utf8_string
+                0x000000000002e4e0                mbedtls_asn1_write_printable_string
+                0x000000000002e4f0                mbedtls_asn1_write_ia5_string
+                0x000000000002e500                mbedtls_asn1_write_bitstring
+                0x000000000002e5f0                mbedtls_asn1_write_octet_string
+                0x000000000002e680                mbedtls_asn1_store_named_data
+ *fill*         0x000000000002e7b8        0x8 
+ .text          0x000000000002e7c0     0x115a ../lib/libmbedcrypto.a(cipher.o)
+                0x000000000002ea30                mbedtls_cipher_list
+                0x000000000002ea90                mbedtls_cipher_info_from_type
+                0x000000000002ead0                mbedtls_cipher_info_from_string
+                0x000000000002eb30                mbedtls_cipher_info_from_values
+                0x000000000002eb70                mbedtls_cipher_init
+                0x000000000002eba0                mbedtls_cipher_free
+                0x000000000002ebe0                mbedtls_cipher_setup
+                0x000000000002ec70                mbedtls_cipher_setkey
+                0x000000000002ecd0                mbedtls_cipher_set_iv
+                0x000000000002ee00                mbedtls_cipher_reset
+                0x000000000002ee20                mbedtls_cipher_update_ad
+                0x000000000002eeb0                mbedtls_cipher_update
+                0x000000000002f2a0                mbedtls_cipher_finish
+                0x000000000002f410                mbedtls_cipher_set_padding_mode
+                0x000000000002f4f0                mbedtls_cipher_write_tag
+                0x000000000002f540                mbedtls_cipher_check_tag
+                0x000000000002f660                mbedtls_cipher_crypt
+                0x000000000002f700                mbedtls_cipher_auth_encrypt
+                0x000000000002f810                mbedtls_cipher_auth_decrypt
+ *fill*         0x000000000002f91a        0x6 
+ .text          0x000000000002f920      0x671 ../lib/libmbedcrypto.a(cipher_wrap.o)
+ *fill*         0x000000000002ff91        0xf 
+ .text          0x000000000002ffa0     0x160f ../lib/libmbedcrypto.a(des.o)
+                0x000000000002ffa0                mbedtls_des_init
+                0x000000000002ffd0                mbedtls_des_free
+                0x000000000002fff0                mbedtls_des3_init
+                0x0000000000030020                mbedtls_des3_free
+                0x0000000000030040                mbedtls_des_key_set_parity
+                0x0000000000030070                mbedtls_des_key_check_key_parity
+                0x00000000000300b0                mbedtls_des_key_check_weak
+                0x00000000000300f0                mbedtls_des_setkey
+                0x00000000000306a0                mbedtls_des_setkey_enc
+                0x00000000000306b0                mbedtls_des_setkey_dec
+                0x00000000000306f0                mbedtls_des3_set2key_enc
+                0x0000000000030720                mbedtls_des3_set2key_dec
+                0x0000000000030760                mbedtls_des3_set3key_enc
+                0x0000000000030790                mbedtls_des3_set3key_dec
+                0x00000000000307d0                mbedtls_des_crypt_ecb
+                0x0000000000030a90                mbedtls_des_crypt_cbc
+                0x0000000000030b30                mbedtls_des3_crypt_ecb
+                0x0000000000031000                mbedtls_des3_crypt_cbc
+                0x00000000000310a0                mbedtls_des_self_test
+ *fill*         0x00000000000315af        0x1 
+ .text          0x00000000000315b0      0xdee ../lib/libmbedcrypto.a(md5.o)
+                0x00000000000315b0                mbedtls_md5_init
+                0x00000000000315e0                mbedtls_md5_free
+                0x0000000000031600                mbedtls_md5_clone
+                0x0000000000031640                mbedtls_md5_starts_ret
+                0x0000000000031670                mbedtls_md5_starts
+                0x00000000000316a0                mbedtls_internal_md5_process
+                0x0000000000031fd0                mbedtls_md5_process
+                0x0000000000031fe0                mbedtls_md5_update_ret
+                0x0000000000032000                mbedtls_md5_update
+                0x0000000000032020                mbedtls_md5_finish_ret
+                0x00000000000321e0                mbedtls_md5_finish
+                0x00000000000321f0                mbedtls_md5_ret
+                0x0000000000032270                mbedtls_md5
+                0x0000000000032280                mbedtls_md5_self_test
+ *fill*         0x000000000003239e        0x2 
+ .text          0x00000000000323a0      0x84e ../lib/libmbedcrypto.a(oid.o)
+                0x00000000000323f0                mbedtls_oid_get_attr_short_name
+                0x0000000000032480                mbedtls_oid_get_x509_ext_type
+                0x0000000000032510                mbedtls_oid_get_extended_key_usage
+                0x00000000000325a0                mbedtls_oid_get_sig_alg_desc
+                0x00000000000325d0                mbedtls_oid_get_sig_alg
+                0x0000000000032610                mbedtls_oid_get_oid_by_sig_alg
+                0x0000000000032670                mbedtls_oid_get_pk_alg
+                0x0000000000032700                mbedtls_oid_get_oid_by_pk_alg
+                0x0000000000032760                mbedtls_oid_get_ec_grp
+                0x00000000000327f0                mbedtls_oid_get_oid_by_ec_grp
+                0x0000000000032850                mbedtls_oid_get_cipher_alg
+                0x00000000000328e0                mbedtls_oid_get_md_alg
+                0x0000000000032970                mbedtls_oid_get_oid_by_md
+                0x00000000000329d0                mbedtls_oid_get_md_hmac
+                0x0000000000032a60                mbedtls_oid_get_pkcs12_pbe_alg
+                0x0000000000032b00                mbedtls_oid_get_numeric_string
+ *fill*         0x0000000000032bee        0x2 
+ .text          0x0000000000032bf0      0xeb5 ../lib/libmbedcrypto.a(pem.o)
+                0x0000000000033080                mbedtls_pem_init
+                0x0000000000033090                mbedtls_pem_read_buffer
+                0x0000000000033820                mbedtls_pem_free
+                0x0000000000033860                mbedtls_pem_write_buffer
+ *fill*         0x0000000000033aa5        0xb 
+ .text          0x0000000000033ab0      0xa1c ../lib/libmbedcrypto.a(pkcs12.o)
+                0x0000000000033ab0                mbedtls_pkcs12_derivation
+                0x0000000000034290                mbedtls_pkcs12_pbe_sha1_rc4_128
+                0x0000000000034350                mbedtls_pkcs12_pbe
+ *fill*         0x00000000000344cc        0x4 
+ .text          0x00000000000344d0      0x89c ../lib/libmbedcrypto.a(pkcs5.o)
+                0x00000000000344d0                mbedtls_pkcs5_pbkdf2_hmac
+                0x00000000000347b0                mbedtls_pkcs5_pbes2
+                0x0000000000034b80                mbedtls_pkcs5_self_test
+ *fill*         0x0000000000034d6c        0x4 
+ .text          0x0000000000034d70      0xb08 ../lib/libmbedcrypto.a(rsa_internal.o)
+                0x0000000000034d70                mbedtls_rsa_deduce_primes
+                0x00000000000350e0                mbedtls_rsa_deduce_private_exponent
+                0x0000000000035220                mbedtls_rsa_validate_crt
+                0x0000000000035410                mbedtls_rsa_validate_params
+                0x00000000000357b0                mbedtls_rsa_deduce_crt
+ *fill*         0x0000000000035878        0x8 
+ .text          0x0000000000035880      0x297 ../lib/libmbedcrypto.a(arc4.o)
+                0x0000000000035880                mbedtls_arc4_init
+                0x00000000000358b0                mbedtls_arc4_free
+                0x00000000000358d0                mbedtls_arc4_setup
+                0x0000000000035950                mbedtls_arc4_crypt
+                0x00000000000359e0                mbedtls_arc4_self_test
+ *fill*         0x0000000000035b17        0x9 
+ .text          0x0000000000035b20      0x5c3 ../lib/libmbedcrypto.a(blowfish.o)
+                0x0000000000035b90                mbedtls_blowfish_init
+                0x0000000000035bc0                mbedtls_blowfish_free
+                0x0000000000035be0                mbedtls_blowfish_setkey
+                0x0000000000035d60                mbedtls_blowfish_crypt_ecb
+                0x0000000000035e10                mbedtls_blowfish_crypt_cbc
+                0x0000000000035f00                mbedtls_blowfish_crypt_cfb64
+                0x0000000000036010                mbedtls_blowfish_crypt_ctr
+ *fill*         0x00000000000360e3        0xd 
+ .text          0x00000000000360f0     0x14ff ../lib/libmbedcrypto.a(camellia.o)
+                0x00000000000361b0                mbedtls_camellia_init
+                0x00000000000361e0                mbedtls_camellia_free
+                0x0000000000036200                mbedtls_camellia_setkey_enc
+                0x0000000000036a90                mbedtls_camellia_setkey_dec
+                0x0000000000036b80                mbedtls_camellia_crypt_ecb
+                0x0000000000036d00                mbedtls_camellia_crypt_cbc
+                0x0000000000036de0                mbedtls_camellia_crypt_cfb128
+                0x0000000000036ef0                mbedtls_camellia_crypt_ctr
+                0x0000000000036fd0                mbedtls_camellia_self_test
+ *fill*         0x00000000000375ef        0x1 
+ .text          0x00000000000375f0      0xc78 ../lib/libmbedcrypto.a(ccm.o)
+                0x0000000000037da0                mbedtls_ccm_init
+                0x0000000000037dd0                mbedtls_ccm_setkey
+                0x0000000000037e50                mbedtls_ccm_free
+                0x0000000000037e80                mbedtls_ccm_star_encrypt_and_tag
+                0x0000000000037eb0                mbedtls_ccm_encrypt_and_tag
+                0x0000000000037f00                mbedtls_ccm_star_auth_decrypt
+                0x0000000000037fa0                mbedtls_ccm_auth_decrypt
+                0x0000000000037fc0                mbedtls_ccm_self_test
+ *fill*         0x0000000000038268        0x8 
+ .text          0x0000000000038270      0x8c9 ../lib/libmbedcrypto.a(chacha20.o)
+                0x0000000000038570                mbedtls_chacha20_init
+                0x00000000000385a0                mbedtls_chacha20_free
+                0x00000000000385c0                mbedtls_chacha20_setkey
+                0x0000000000038610                mbedtls_chacha20_starts
+                0x0000000000038650                mbedtls_chacha20_update
+                0x0000000000038820                mbedtls_chacha20_crypt
+                0x00000000000388b0                mbedtls_chacha20_self_test
+ *fill*         0x0000000000038b39        0x7 
+ .text          0x0000000000038b40      0x7f6 ../lib/libmbedcrypto.a(chachapoly.o)
+                0x0000000000038b90                mbedtls_chachapoly_init
+                0x0000000000038bd0                mbedtls_chachapoly_free
+                0x0000000000038c20                mbedtls_chachapoly_setkey
+                0x0000000000038c30                mbedtls_chachapoly_starts
+                0x0000000000038cf0                mbedtls_chachapoly_update_aad
+                0x0000000000038d20                mbedtls_chachapoly_update
+                0x0000000000038e00                mbedtls_chachapoly_finish
+                0x0000000000038fd0                mbedtls_chachapoly_encrypt_and_tag
+                0x0000000000039000                mbedtls_chachapoly_auth_decrypt
+                0x0000000000039090                mbedtls_chachapoly_self_test
+ *fill*         0x0000000000039336        0xa 
+ .text          0x0000000000039340      0x84c ../lib/libmbedcrypto.a(poly1305.o)
+                0x0000000000039610                mbedtls_poly1305_init
+                0x0000000000039620                mbedtls_poly1305_free
+                0x0000000000039640                mbedtls_poly1305_starts
+                0x00000000000396c0                mbedtls_poly1305_update
+                0x0000000000039830                mbedtls_poly1305_finish
+                0x0000000000039950                mbedtls_poly1305_mac
+                0x00000000000399d0                mbedtls_poly1305_self_test
+ *fill*         0x0000000000039b8c        0x4 
+ .text          0x0000000000039b90      0xd31 ../lib/libmbedx509.a(x509_crl.o)
+                0x0000000000039ca0                mbedtls_x509_crl_parse_der
+                0x000000000003a4e0                mbedtls_x509_crl_parse
+                0x000000000003a500                mbedtls_x509_crl_parse_file
+                0x000000000003a570                mbedtls_x509_crl_info
+                0x000000000003a880                mbedtls_x509_crl_init
+                0x000000000003a8b0                mbedtls_x509_crl_free
+ *fill*         0x000000000003a8c1        0xf 
+ .text          0x000000000003a8d0     0x2b41 ../lib/libmbedx509.a(x509_crt.o)
+                0x000000000003b9e0                mbedtls_x509_crt_parse_der
+                0x000000000003ba00                mbedtls_x509_crt_parse
+                0x000000000003bbd0                mbedtls_x509_crt_parse_file
+                0x000000000003bc30                mbedtls_x509_crt_parse_path
+                0x000000000003bd30                mbedtls_x509_crt_info
+                0x000000000003c820                mbedtls_x509_crt_verify_info
+                0x000000000003c900                mbedtls_x509_crt_check_key_usage
+                0x000000000003c920                mbedtls_x509_crt_check_extended_key_usage
+                0x000000000003c9d0                mbedtls_x509_crt_is_revoked
+                0x000000000003ca50                mbedtls_x509_crt_verify_restartable
+                0x000000000003d380                mbedtls_x509_crt_verify
+                0x000000000003d3b0                mbedtls_x509_crt_verify_with_profile
+                0x000000000003d3d0                mbedtls_x509_crt_init
+                0x000000000003d400                mbedtls_x509_crt_free
+ *fill*         0x000000000003d411        0xf 
+ .text          0x000000000003d420      0x64e ../lib/libmbedx509.a(x509write_csr.o)
+                0x000000000003d420                mbedtls_x509write_csr_init
+                0x000000000003d430                mbedtls_x509write_csr_free
+                0x000000000003d460                mbedtls_x509write_csr_set_md_alg
+                0x000000000003d470                mbedtls_x509write_csr_set_key
+                0x000000000003d480                mbedtls_x509write_csr_set_subject_name
+                0x000000000003d490                mbedtls_x509write_csr_set_extension
+                0x000000000003d4b0                mbedtls_x509write_csr_set_key_usage
+                0x000000000003d550                mbedtls_x509write_csr_set_ns_cert_type
+                0x000000000003d5e0                mbedtls_x509write_csr_der
+                0x000000000003da00                mbedtls_x509write_csr_pem
+ *fill*         0x000000000003da6e        0x2 
+ .text          0x000000000003da70     0x1370 ../lib/libmbedx509.a(x509.o)
+                0x000000000003db70                mbedtls_x509_get_serial
+                0x000000000003dbf0                mbedtls_x509_get_alg_null
+                0x000000000003dc10                mbedtls_x509_get_alg
+                0x000000000003dc30                mbedtls_x509_get_rsassa_pss_params
+                0x000000000003e010                mbedtls_x509_get_name
+                0x000000000003e1f0                mbedtls_x509_get_time
+                0x000000000003e580                mbedtls_x509_get_sig
+                0x000000000003e5f0                mbedtls_x509_get_sig_alg
+                0x000000000003e6f0                mbedtls_x509_get_ext
+                0x000000000003e770                mbedtls_x509_dn_gets
+                0x000000000003e940                mbedtls_x509_serial_gets
+                0x000000000003ea70                mbedtls_x509_sig_alg_gets
+                0x000000000003ebc0                mbedtls_x509_key_size_helper
+                0x000000000003ebf0                mbedtls_x509_time_is_past
+                0x000000000003ec30                mbedtls_x509_time_is_future
+                0x000000000003ec70                mbedtls_x509_self_test
+ .text          0x000000000003ede0      0x62a ../lib/libmbedx509.a(x509_create.o)
+                0x000000000003ede0                mbedtls_x509_string_to_names
+                0x000000000003efd0                mbedtls_x509_set_extension
+                0x000000000003f020                mbedtls_x509_write_names
+                0x000000000003f180                mbedtls_x509_write_sig
+                0x000000000003f270                mbedtls_x509_write_extensions
+ .text          0x000000000003f40a        0x0 ../lib/libmbedx509.a(certs.o)
+ *fill*         0x000000000003f40a        0x6 
+ .text          0x000000000003f410       0xf8 /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+                0x000000000003f410                __udivti3
+ *fill*         0x000000000003f508        0x8 
+ .text          0x000000000003f510       0x61 //usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x000000000003f510                __libc_csu_init
+                0x000000000003f570                __libc_csu_fini
+ .text          0x000000000003f571        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+ .text          0x000000000003f571        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000003f574        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x000000000003f574        0x4 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+                0x000000000003f574                _fini
+ .fini          0x000000000003f578        0x5 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000040000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000040000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000040000    0x17347
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000040000        0x4 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000040000                _IO_stdin_used
+ *fill*         0x0000000000040004        0x4 
+ .rodata        0x0000000000040008      0xc48 /tmp/ccSJt3NP.o
+ .rodata.str1.1
+                0x0000000000040c50       0x98 ../lib/libmbedcrypto.a(aes.o)
+                                         0x9f (size before relaxing)
+ *fill*         0x0000000000040ce8       0x18 
+ .rodata        0x0000000000040d00      0x710 ../lib/libmbedcrypto.a(aes.o)
+ .rodata.str1.1
+                0x0000000000041410       0x21 ../lib/libmbedcrypto.a(base64.o)
+                                         0x28 (size before relaxing)
+ *fill*         0x0000000000041431        0x7 
+ .rodata.str1.8
+                0x0000000000041438       0x20 ../lib/libmbedcrypto.a(base64.o)
+ *fill*         0x0000000000041458        0x8 
+ .rodata        0x0000000000041460      0x160 ../lib/libmbedcrypto.a(base64.o)
+ .rodata.str1.1
+                0x00000000000415c0       0xa9 ../lib/libmbedcrypto.a(bignum.o)
+                                         0xb8 (size before relaxing)
+ *fill*         0x0000000000041669        0x7 
+ .rodata.str1.8
+                0x0000000000041670      0x3cf ../lib/libmbedcrypto.a(bignum.o)
+ *fill*         0x0000000000041a3f        0x1 
+ .rodata        0x0000000000041a40      0x2e0 ../lib/libmbedcrypto.a(bignum.o)
+ .rodata.str1.1
+                0x0000000000041d20       0x3a ../lib/libmbedcrypto.a(ctr_drbg.o)
+                                         0x48 (size before relaxing)
+ *fill*         0x0000000000041d5a        0x6 
+ .rodata        0x0000000000041d60       0xe0 ../lib/libmbedcrypto.a(ctr_drbg.o)
+ .rodata.str1.1
+                0x0000000000041e40       0x11 ../lib/libmbedcrypto.a(ecdsa.o)
+ .rodata.str1.1
+                0x0000000000041e51       0x8d ../lib/libmbedcrypto.a(ecp.o)
+                                         0x94 (size before relaxing)
+ *fill*         0x0000000000041ede        0x2 
+ .rodata.str1.8
+                0x0000000000041ee0      0x1b9 ../lib/libmbedcrypto.a(ecp.o)
+                                        0x1e6 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000042099        0xc ../lib/libmbedcrypto.a(ecp_curves.o)
+ *fill*         0x00000000000420a5        0x3 
+ .rodata.str1.8
+                0x00000000000420a8       0x61 ../lib/libmbedcrypto.a(ecp_curves.o)
+ *fill*         0x0000000000042109       0x17 
+ .rodata        0x0000000000042120      0xad8 ../lib/libmbedcrypto.a(ecp_curves.o)
+ .rodata.str1.1
+                0x0000000000042bf8       0x11 ../lib/libmbedcrypto.a(entropy.o)
+                                         0x25 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000042c09        0xd ../lib/libmbedcrypto.a(entropy_poll.o)
+                                         0x10 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000042c16       0x19 ../lib/libmbedcrypto.a(gcm.o)
+                                         0x37 (size before relaxing)
+ *fill*         0x0000000000042c2f        0x1 
+ .rodata.str1.8
+                0x0000000000042c30       0x1f ../lib/libmbedcrypto.a(gcm.o)
+ *fill*         0x0000000000042c4f       0x11 
+ .rodata        0x0000000000042c60      0xc80 ../lib/libmbedcrypto.a(gcm.o)
+ .rodata.str1.1
+                0x00000000000438e0       0x37 ../lib/libmbedcrypto.a(hmac_drbg.o)
+                                         0x4b (size before relaxing)
+ *fill*         0x0000000000043917        0x9 
+ .rodata        0x0000000000043920      0x138 ../lib/libmbedcrypto.a(hmac_drbg.o)
+ .rodata.str1.1
+                0x0000000000043a58        0xe ../lib/libmbedcrypto.a(md.o)
+                                         0x36 (size before relaxing)
+ *fill*         0x0000000000043a66       0x1a 
+ .rodata        0x0000000000043a80       0x40 ../lib/libmbedcrypto.a(md.o)
+ .rodata.str1.1
+                0x0000000000043ac0       0x2f ../lib/libmbedcrypto.a(md_wrap.o)
+ .rodata.str1.1
+                0x0000000000043ac0        0xb ../lib/libmbedcrypto.a(pk.o)
+ .rodata.str1.1
+                0x0000000000043acb       0x2f ../lib/libmbedcrypto.a(pk_wrap.o)
+ *fill*         0x0000000000043afa        0x6 
+ .rodata.cst16  0x0000000000043b00       0x10 ../lib/libmbedcrypto.a(pk_wrap.o)
+ .rodata.str1.1
+                0x0000000000043b10       0xeb ../lib/libmbedcrypto.a(pkparse.o)
+                                         0xee (size before relaxing)
+ *fill*         0x0000000000043bfb        0x5 
+ .rodata.str1.8
+                0x0000000000043c00       0xaf ../lib/libmbedcrypto.a(pkparse.o)
+ .rodata.str1.1
+                0x0000000000043caf       0x54 ../lib/libmbedcrypto.a(pkwrite.o)
+ *fill*         0x0000000000043d03        0x5 
+ .rodata.str1.8
+                0x0000000000043d08       0x68 ../lib/libmbedcrypto.a(pkwrite.o)
+ .rodata.str1.1
+                0x0000000000043d70       0x18 ../lib/libmbedcrypto.a(ripemd160.o)
+                                         0x26 (size before relaxing)
+ *fill*         0x0000000000043d88       0x18 
+ .rodata        0x0000000000043da0      0x3c0 ../lib/libmbedcrypto.a(ripemd160.o)
+ .rodata.str1.8
+                0x0000000000044160      0x319 ../lib/libmbedcrypto.a(rsa.o)
+ .rodata.str1.1
+                0x0000000000044479       0x8e ../lib/libmbedcrypto.a(rsa.o)
+                                         0x9c (size before relaxing)
+ .rodata        0x0000000000044507       0x19 ../lib/libmbedcrypto.a(rsa.o)
+ .rodata.str1.1
+                0x0000000000044520       0x13 ../lib/libmbedcrypto.a(sha1.o)
+                                         0x21 (size before relaxing)
+ *fill*         0x0000000000044533        0xd 
+ .rodata        0x0000000000044540      0x10b ../lib/libmbedcrypto.a(sha1.o)
+ .rodata.str1.1
+                0x000000000004464b       0x2d ../lib/libmbedcrypto.a(sha256.o)
+                                         0x3b (size before relaxing)
+ *fill*         0x0000000000044678        0x8 
+ .rodata        0x0000000000044680      0x2a0 ../lib/libmbedcrypto.a(sha256.o)
+ .rodata.str1.1
+                0x0000000000044920       0x3b ../lib/libmbedcrypto.a(sha512.o)
+ .rodata        0x0000000000044920      0x580 ../lib/libmbedcrypto.a(sha512.o)
+ .rodata.str1.8
+                0x0000000000044ea0      0x13b ../lib/libmbedcrypto.a(timing.o)
+ .rodata.str1.1
+                0x0000000000044fdb       0x24 ../lib/libmbedcrypto.a(timing.o)
+                                         0x2b (size before relaxing)
+ *fill*         0x0000000000044fff        0x1 
+ .rodata        0x0000000000045000       0x14 ../lib/libmbedcrypto.a(cipher.o)
+ .rodata.str1.1
+                0x0000000000045014      0x2f4 ../lib/libmbedcrypto.a(cipher_wrap.o)
+ .rodata.str1.1
+                0x0000000000045308       0x2e ../lib/libmbedcrypto.a(des.o)
+                                         0x44 (size before relaxing)
+ *fill*         0x0000000000045336        0xa 
+ .rodata        0x0000000000045340      0xa60 ../lib/libmbedcrypto.a(des.o)
+ .rodata.str1.1
+                0x0000000000045da0       0x11 ../lib/libmbedcrypto.a(md5.o)
+                                         0x1f (size before relaxing)
+ *fill*         0x0000000000045db1        0xf 
+ .rodata        0x0000000000045dc0      0x2f7 ../lib/libmbedcrypto.a(md5.o)
+ .rodata.str1.1
+                0x00000000000460b7      0x8fd ../lib/libmbedcrypto.a(oid.o)
+                                        0xa40 (size before relaxing)
+ .rodata        0x00000000000469b4       0x24 ../lib/libmbedcrypto.a(oid.o)
+ .rodata.str1.8
+                0x00000000000469d8       0x40 ../lib/libmbedcrypto.a(oid.o)
+ .rodata.str1.1
+                0x0000000000046a18       0x96 ../lib/libmbedcrypto.a(pem.o)
+ .rodata.str1.1
+                0x0000000000046aae       0x20 ../lib/libmbedcrypto.a(pkcs5.o)
+                                         0x2e (size before relaxing)
+ *fill*         0x0000000000046ace       0x12 
+ .rodata        0x0000000000046ae0      0x330 ../lib/libmbedcrypto.a(pkcs5.o)
+ .rodata.str1.1
+                0x0000000000046e10       0x12 ../lib/libmbedcrypto.a(arc4.o)
+                                         0x20 (size before relaxing)
+ *fill*         0x0000000000046e22        0xe 
+ .rodata        0x0000000000046e30       0x58 ../lib/libmbedcrypto.a(arc4.o)
+ *fill*         0x0000000000046e88       0x18 
+ .rodata        0x0000000000046ea0     0x1048 ../lib/libmbedcrypto.a(blowfish.o)
+ .rodata.str1.1
+                0x0000000000047ee8       0x4e ../lib/libmbedcrypto.a(camellia.o)
+                                         0x64 (size before relaxing)
+ *fill*         0x0000000000047f36        0xa 
+ .rodata        0x0000000000047f40      0x990 ../lib/libmbedcrypto.a(camellia.o)
+ .rodata.str1.1
+                0x00000000000488d0       0x24 ../lib/libmbedcrypto.a(ccm.o)
+                                         0x32 (size before relaxing)
+ *fill*         0x00000000000488f4        0xc 
+ .rodata        0x0000000000048900      0x140 ../lib/libmbedcrypto.a(ccm.o)
+ .rodata.str1.1
+                0x0000000000048a40       0x24 ../lib/libmbedcrypto.a(chacha20.o)
+                                         0x3b (size before relaxing)
+ *fill*         0x0000000000048a64       0x1c 
+ .rodata        0x0000000000048a80      0x660 ../lib/libmbedcrypto.a(chacha20.o)
+ .rodata.str1.1
+                0x00000000000490e0       0x61 ../lib/libmbedcrypto.a(chachapoly.o)
+                                         0x68 (size before relaxing)
+ *fill*         0x0000000000049141        0x7 
+ .rodata.str1.8
+                0x0000000000049148       0x20 ../lib/libmbedcrypto.a(chachapoly.o)
+ *fill*         0x0000000000049168       0x18 
+ .rodata        0x0000000000049180      0x160 ../lib/libmbedcrypto.a(chachapoly.o)
+ .rodata.str1.1
+                0x00000000000492e0       0x21 ../lib/libmbedcrypto.a(poly1305.o)
+                                         0x38 (size before relaxing)
+ *fill*         0x0000000000049301       0x1f 
+ .rodata        0x0000000000049320      0x160 ../lib/libmbedcrypto.a(poly1305.o)
+ .rodata.str1.1
+                0x0000000000049480       0x99 ../lib/libmbedx509.a(x509_crl.o)
+                                         0x9b (size before relaxing)
+ *fill*         0x0000000000049519        0x7 
+ .rodata.str1.8
+                0x0000000000049520       0xa0 ../lib/libmbedx509.a(x509_crl.o)
+ .rodata.str1.1
+                0x00000000000495c0      0x2b1 ../lib/libmbedx509.a(x509_crt.o)
+                                        0x2bd (size before relaxing)
+ *fill*         0x0000000000049871        0x7 
+ .rodata.str1.8
+                0x0000000000049878      0x49a ../lib/libmbedx509.a(x509_crt.o)
+ *fill*         0x0000000000049d12        0xe 
+ .rodata        0x0000000000049d20       0x30 ../lib/libmbedx509.a(x509_crt.o)
+                0x0000000000049d20                mbedtls_x509_crt_profile_suiteb
+                0x0000000000049d30                mbedtls_x509_crt_profile_next
+                0x0000000000049d40                mbedtls_x509_crt_profile_default
+ .rodata.str1.1
+                0x0000000000049d50        0xa ../lib/libmbedx509.a(x509write_csr.o)
+                                         0x18 (size before relaxing)
+ *fill*         0x0000000000049d5a        0x6 
+ .rodata.str1.8
+                0x0000000000049d60       0x4d ../lib/libmbedx509.a(x509write_csr.o)
+ .rodata.str1.1
+                0x0000000000049dad       0x60 ../lib/libmbedx509.a(x509.o)
+                                         0x7c (size before relaxing)
+ *fill*         0x0000000000049e0d        0x3 
+ .rodata.str1.8
+                0x0000000000049e10       0x28 ../lib/libmbedx509.a(x509.o)
+                                         0x22 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000049e38       0x14 ../lib/libmbedx509.a(x509_create.o)
+                                        0x159 (size before relaxing)
+ *fill*         0x0000000000049e4c       0x14 
+ .rodata        0x0000000000049e60     0xd4e7 ../lib/libmbedx509.a(certs.o)
+                0x0000000000049e60                mbedtls_test_cas_pem_len
+                0x0000000000049e80                mbedtls_test_cas_pem
+                0x000000000004ab00                mbedtls_test_cas_der_len
+                0x000000000004ab20                mbedtls_test_cas_len
+                0x000000000004ab40                mbedtls_test_cli_crt_len
+                0x000000000004ab48                mbedtls_test_cli_pwd_len
+                0x000000000004ab50                mbedtls_test_cli_key_len
+                0x000000000004ab58                mbedtls_test_srv_crt_len
+                0x000000000004ab60                mbedtls_test_srv_pwd_len
+                0x000000000004ab68                mbedtls_test_srv_key_len
+                0x000000000004ab70                mbedtls_test_ca_crt_len
+                0x000000000004ab78                mbedtls_test_ca_pwd_len
+                0x000000000004ab80                mbedtls_test_ca_key_len
+                0x000000000004ce78                mbedtls_test_srv_crt_rsa_len
+                0x000000000004ce80                mbedtls_test_ca_crt_rsa_len
+                0x000000000004cea0                mbedtls_test_srv_crt_rsa
+                0x000000000004d360                mbedtls_test_ca_crt_rsa
+                0x000000000004d820                mbedtls_test_cli_crt_ec_len
+                0x000000000004d828                mbedtls_test_cli_pwd_ec_len
+                0x000000000004d830                mbedtls_test_cli_key_ec_len
+                0x000000000004d838                mbedtls_test_cli_crt_rsa_len
+                0x000000000004d840                mbedtls_test_cli_pwd_rsa_len
+                0x000000000004d848                mbedtls_test_cli_key_rsa_len
+                0x000000000004d850                mbedtls_test_srv_crt_ec_len
+                0x000000000004d858                mbedtls_test_srv_pwd_ec_len
+                0x000000000004d860                mbedtls_test_srv_key_ec_len
+                0x000000000004d868                mbedtls_test_srv_crt_rsa_sha1_len
+                0x000000000004d870                mbedtls_test_srv_crt_rsa_sha256_len
+                0x000000000004d878                mbedtls_test_srv_pwd_rsa_len
+                0x000000000004d880                mbedtls_test_srv_key_rsa_len
+                0x000000000004d888                mbedtls_test_ca_crt_ec_len
+                0x000000000004d890                mbedtls_test_ca_pwd_ec_len
+                0x000000000004d898                mbedtls_test_ca_key_ec_len
+                0x000000000004d8a0                mbedtls_test_ca_crt_rsa_sha1_len
+                0x000000000004d8a8                mbedtls_test_ca_crt_rsa_sha256_len
+                0x000000000004d8b0                mbedtls_test_ca_pwd_rsa_len
+                0x000000000004d8b8                mbedtls_test_ca_key_rsa_len
+                0x000000000004d8c0                mbedtls_test_cli_crt_ec
+                0x000000000004db93                mbedtls_test_cli_pwd_ec
+                0x000000000004dba0                mbedtls_test_cli_key_ec
+                0x000000000004dca0                mbedtls_test_cli_crt_rsa
+                0x000000000004e159                mbedtls_test_cli_pwd_rsa
+                0x000000000004e160                mbedtls_test_cli_key_rsa
+                0x000000000004e820                mbedtls_test_srv_crt_ec
+                0x000000000004eb4d                mbedtls_test_srv_pwd_ec
+                0x000000000004eb60                mbedtls_test_srv_key_ec
+                0x000000000004ec60                mbedtls_test_srv_crt_rsa_sha1
+                0x000000000004f120                mbedtls_test_srv_crt_rsa_sha256
+                0x000000000004f5cd                mbedtls_test_srv_pwd_rsa
+                0x000000000004f5e0                mbedtls_test_srv_key_rsa
+                0x000000000004fca0                mbedtls_test_ca_crt_ec
+                0x000000000004ffa8                mbedtls_test_ca_pwd_ec
+                0x000000000004ffc0                mbedtls_test_ca_key_ec
+                0x0000000000050140                mbedtls_test_ca_crt_rsa_sha1
+                0x0000000000050600                mbedtls_test_ca_crt_rsa_sha256
+                0x0000000000050ac0                mbedtls_test_ca_pwd_rsa
+                0x0000000000050ae0                mbedtls_test_ca_key_rsa
+                0x00000000000511d8                mbedtls_test_cli_crt_rsa_der_len
+                0x00000000000511e0                mbedtls_test_cli_key_rsa_der_len
+                0x00000000000511e8                mbedtls_test_cli_key_ec_der_len
+                0x00000000000511f0                mbedtls_test_cli_crt_ec_der_len
+                0x00000000000511f8                mbedtls_test_cli_crt_rsa_pem_len
+                0x0000000000051200                mbedtls_test_cli_pwd_rsa_pem_len
+                0x0000000000051208                mbedtls_test_cli_key_rsa_pem_len
+                0x0000000000051210                mbedtls_test_cli_pwd_ec_pem_len
+                0x0000000000051218                mbedtls_test_cli_key_ec_pem_len
+                0x0000000000051220                mbedtls_test_cli_crt_ec_pem_len
+                0x0000000000051240                mbedtls_test_cli_crt_rsa_der
+                0x00000000000515a0                mbedtls_test_cli_key_rsa_der
+                0x0000000000051a60                mbedtls_test_cli_key_ec_der
+                0x0000000000051ae0                mbedtls_test_cli_crt_ec_der
+                0x0000000000051ce0                mbedtls_test_cli_crt_rsa_pem
+                0x0000000000052199                mbedtls_test_cli_pwd_rsa_pem
+                0x00000000000521a0                mbedtls_test_cli_key_rsa_pem
+                0x000000000005284b                mbedtls_test_cli_pwd_ec_pem
+                0x0000000000052860                mbedtls_test_cli_key_ec_pem
+                0x0000000000052960                mbedtls_test_cli_crt_ec_pem
+                0x0000000000052c38                mbedtls_test_srv_crt_rsa_sha256_der_len
+                0x0000000000052c40                mbedtls_test_srv_crt_rsa_sha1_der_len
+                0x0000000000052c48                mbedtls_test_srv_pwd_rsa_der_len
+                0x0000000000052c50                mbedtls_test_srv_key_rsa_der_len
+                0x0000000000052c58                mbedtls_test_srv_pwd_ec_der_len
+                0x0000000000052c60                mbedtls_test_srv_key_ec_der_len
+                0x0000000000052c68                mbedtls_test_srv_crt_ec_der_len
+                0x0000000000052c70                mbedtls_test_srv_crt_rsa_sha256_pem_len
+                0x0000000000052c78                mbedtls_test_srv_crt_rsa_sha1_pem_len
+                0x0000000000052c80                mbedtls_test_srv_pwd_rsa_pem_len
+                0x0000000000052c88                mbedtls_test_srv_key_rsa_pem_len
+                0x0000000000052c90                mbedtls_test_srv_pwd_ec_pem_len
+                0x0000000000052c98                mbedtls_test_srv_key_ec_pem_len
+                0x0000000000052ca0                mbedtls_test_srv_crt_ec_pem_len
+                0x0000000000052cc0                mbedtls_test_srv_crt_rsa_sha256_der
+                0x0000000000053000                mbedtls_test_srv_crt_rsa_sha1_der
+                0x0000000000053340                mbedtls_test_srv_key_rsa_der
+                0x0000000000053800                mbedtls_test_srv_key_ec_der
+                0x0000000000053880                mbedtls_test_srv_crt_ec_der
+                0x0000000000053ac0                mbedtls_test_srv_crt_rsa_sha256_pem
+                0x0000000000053f80                mbedtls_test_srv_crt_rsa_sha1_pem
+                0x000000000005442d                mbedtls_test_srv_pwd_rsa_pem
+                0x0000000000054440                mbedtls_test_srv_key_rsa_pem
+                0x0000000000054aeb                mbedtls_test_srv_pwd_ec_pem
+                0x0000000000054b00                mbedtls_test_srv_key_ec_pem
+                0x0000000000054c00                mbedtls_test_srv_crt_ec_pem
+                0x0000000000054f30                mbedtls_test_ca_crt_rsa_sha256_der_len
+                0x0000000000054f38                mbedtls_test_ca_crt_rsa_sha1_der_len
+                0x0000000000054f40                mbedtls_test_ca_pwd_rsa_der_len
+                0x0000000000054f48                mbedtls_test_ca_key_rsa_der_len
+                0x0000000000054f50                mbedtls_test_ca_pwd_ec_der_len
+                0x0000000000054f58                mbedtls_test_ca_key_ec_der_len
+                0x0000000000054f60                mbedtls_test_ca_crt_ec_der_len
+                0x0000000000054f68                mbedtls_test_ca_crt_rsa_sha256_pem_len
+                0x0000000000054f70                mbedtls_test_ca_crt_rsa_sha1_pem_len
+                0x0000000000054f78                mbedtls_test_ca_pwd_rsa_pem_len
+                0x0000000000054f80                mbedtls_test_ca_key_rsa_pem_len
+                0x0000000000054f88                mbedtls_test_ca_pwd_ec_pem_len
+                0x0000000000054f90                mbedtls_test_ca_key_ec_pem_len
+                0x0000000000054f98                mbedtls_test_ca_crt_ec_pem_len
+                0x0000000000054fa0                mbedtls_test_ca_crt_rsa_sha256_der
+                0x0000000000055300                mbedtls_test_ca_crt_rsa_sha1_der
+                0x0000000000055660                mbedtls_test_ca_key_rsa_der
+                0x0000000000055b20                mbedtls_test_ca_key_ec_der
+                0x0000000000055be0                mbedtls_test_ca_crt_ec_der
+                0x0000000000055e00                mbedtls_test_ca_crt_rsa_sha256_pem
+                0x00000000000562c0                mbedtls_test_ca_crt_rsa_sha1_pem
+                0x0000000000056780                mbedtls_test_ca_pwd_rsa_pem
+                0x00000000000567a0                mbedtls_test_ca_key_rsa_pem
+                0x0000000000056e98                mbedtls_test_ca_pwd_ec_pem
+                0x0000000000056ec0                mbedtls_test_ca_key_ec_pem
+                0x0000000000057040                mbedtls_test_ca_crt_ec_pem
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000057348     0x19fc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000057348     0x19fc /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000057348                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000058d48     0x9af8
+ *(.eh_frame)
+ .eh_frame      0x0000000000058d48       0x30 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000058d78        0x0 
+ .eh_frame      0x0000000000058d78       0x40 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x0000000000058db8       0x18 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000058dd0      0x3c8 /tmp/ccSJt3NP.o
+                                        0x3e0 (size before relaxing)
+ .eh_frame      0x0000000000059198      0x588 ../lib/libmbedcrypto.a(aes.o)
+                                        0x5a0 (size before relaxing)
+ .eh_frame      0x0000000000059720       0x70 ../lib/libmbedcrypto.a(aesni.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000059790       0xd8 ../lib/libmbedcrypto.a(base64.o)
+                                         0xf0 (size before relaxing)
+ .eh_frame      0x0000000000059868      0xc10 ../lib/libmbedcrypto.a(bignum.o)
+                                        0xc28 (size before relaxing)
+ .eh_frame      0x000000000005a478      0x360 ../lib/libmbedcrypto.a(ctr_drbg.o)
+                                        0x378 (size before relaxing)
+ .eh_frame      0x000000000005a7d8      0x2f8 ../lib/libmbedcrypto.a(ecdh.o)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x000000000005aad0      0x398 ../lib/libmbedcrypto.a(ecdsa.o)
+                                        0x3b0 (size before relaxing)
+ .eh_frame      0x000000000005ae68      0xa90 ../lib/libmbedcrypto.a(ecp.o)
+                                        0xaa8 (size before relaxing)
+ .eh_frame      0x000000000005b8f8      0x2f8 ../lib/libmbedcrypto.a(ecp_curves.o)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x000000000005bbf0      0x258 ../lib/libmbedcrypto.a(entropy.o)
+                                        0x270 (size before relaxing)
+ .eh_frame      0x000000000005be48       0x80 ../lib/libmbedcrypto.a(entropy_poll.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000005bec8      0x2e8 ../lib/libmbedcrypto.a(gcm.o)
+                                        0x300 (size before relaxing)
+ .eh_frame      0x000000000005c1b0      0x338 ../lib/libmbedcrypto.a(hmac_drbg.o)
+                                        0x350 (size before relaxing)
+ .eh_frame      0x000000000005c4e8      0x320 ../lib/libmbedcrypto.a(md.o)
+                                        0x338 (size before relaxing)
+ .eh_frame      0x000000000005c808      0x388 ../lib/libmbedcrypto.a(md_wrap.o)
+                                        0x3a0 (size before relaxing)
+ .eh_frame      0x000000000005cb90      0x2d8 ../lib/libmbedcrypto.a(pk.o)
+                                        0x2f0 (size before relaxing)
+ .eh_frame      0x000000000005ce68      0x538 ../lib/libmbedcrypto.a(pk_wrap.o)
+                                        0x550 (size before relaxing)
+ .eh_frame      0x000000000005d3a0      0x4a0 ../lib/libmbedcrypto.a(pkparse.o)
+                                        0x4b8 (size before relaxing)
+ .eh_frame      0x000000000005d840      0x1e8 ../lib/libmbedcrypto.a(pkwrite.o)
+                                        0x200 (size before relaxing)
+ .eh_frame      0x000000000005da28       0x28 ../lib/libmbedcrypto.a(platform_util.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000005da50      0x218 ../lib/libmbedcrypto.a(ripemd160.o)
+                                        0x230 (size before relaxing)
+ .eh_frame      0x000000000005dc68      0x9d8 ../lib/libmbedcrypto.a(rsa.o)
+                                        0x9f0 (size before relaxing)
+ .eh_frame      0x000000000005e640      0x210 ../lib/libmbedcrypto.a(sha1.o)
+                                        0x228 (size before relaxing)
+ .eh_frame      0x000000000005e850      0x218 ../lib/libmbedcrypto.a(sha256.o)
+                                        0x230 (size before relaxing)
+ .eh_frame      0x000000000005ea68      0x218 ../lib/libmbedcrypto.a(sha512.o)
+                                        0x230 (size before relaxing)
+ .eh_frame      0x000000000005ec80      0x160 ../lib/libmbedcrypto.a(timing.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000005ede0      0x1c0 ../lib/libmbedcrypto.a(asn1parse.o)
+                                        0x1d8 (size before relaxing)
+ .eh_frame      0x000000000005efa0      0x268 ../lib/libmbedcrypto.a(asn1write.o)
+                                        0x280 (size before relaxing)
+ .eh_frame      0x000000000005f208      0x510 ../lib/libmbedcrypto.a(cipher.o)
+                                        0x528 (size before relaxing)
+ .eh_frame      0x000000000005f718      0x5b0 ../lib/libmbedcrypto.a(cipher_wrap.o)
+                                        0x5c8 (size before relaxing)
+ .eh_frame      0x000000000005fcc8      0x3c8 ../lib/libmbedcrypto.a(des.o)
+                                        0x3e0 (size before relaxing)
+ .eh_frame      0x0000000000060090      0x210 ../lib/libmbedcrypto.a(md5.o)
+                                        0x228 (size before relaxing)
+ .eh_frame      0x00000000000602a0      0x3f0 ../lib/libmbedcrypto.a(oid.o)
+                                        0x408 (size before relaxing)
+ .eh_frame      0x0000000000060690      0x1c8 ../lib/libmbedcrypto.a(pem.o)
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x0000000000060858      0x180 ../lib/libmbedcrypto.a(pkcs12.o)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x00000000000609d8      0x120 ../lib/libmbedcrypto.a(pkcs5.o)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000000060af8      0x1a0 ../lib/libmbedcrypto.a(rsa_internal.o)
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x0000000000060c98       0xc0 ../lib/libmbedcrypto.a(arc4.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000060d58      0x1b8 ../lib/libmbedcrypto.a(blowfish.o)
+                                        0x1d0 (size before relaxing)
+ .eh_frame      0x0000000000060f10      0x268 ../lib/libmbedcrypto.a(camellia.o)
+                                        0x280 (size before relaxing)
+ .eh_frame      0x0000000000061178      0x208 ../lib/libmbedcrypto.a(ccm.o)
+                                        0x220 (size before relaxing)
+ .eh_frame      0x0000000000061380      0x190 ../lib/libmbedcrypto.a(chacha20.o)
+                                        0x1a8 (size before relaxing)
+ .eh_frame      0x0000000000061510      0x2b0 ../lib/libmbedcrypto.a(chachapoly.o)
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x00000000000617c0      0x1a8 ../lib/libmbedcrypto.a(poly1305.o)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000061968      0x1d8 ../lib/libmbedx509.a(x509_crl.o)
+                                        0x1f0 (size before relaxing)
+ .eh_frame      0x0000000000061b40      0x518 ../lib/libmbedx509.a(x509_crt.o)
+                                        0x530 (size before relaxing)
+ .eh_frame      0x0000000000062058      0x168 ../lib/libmbedx509.a(x509write_csr.o)
+                                        0x180 (size before relaxing)
+ .eh_frame      0x00000000000621c0      0x498 ../lib/libmbedx509.a(x509.o)
+                                        0x4b0 (size before relaxing)
+ .eh_frame      0x0000000000062658      0x160 ../lib/libmbedx509.a(x509_create.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x00000000000627b8       0x28 /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000627e0       0x5c //usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000006283c        0x4 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000064050                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata          0x0000000000064050        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000064050        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000064050        0x8
+                0x0000000000064050                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000064050        0x8 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+                0x0000000000064058                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000064058        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000064058        0x8 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000064060     0x2d58
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000064060       0xc0 ../lib/libmbedcrypto.a(ecp.o)
+ .data.rel.ro.local
+                0x0000000000064120      0x178 ../lib/libmbedcrypto.a(md_wrap.o)
+                0x0000000000064120                mbedtls_sha512_info
+                0x0000000000064180                mbedtls_sha384_info
+                0x00000000000641e0                mbedtls_sha256_info
+                0x0000000000064240                mbedtls_sha224_info
+ *fill*         0x0000000000064298        0x8 
+ .data.rel.ro.local
+                0x00000000000642a0      0x1e0 ../lib/libmbedcrypto.a(pk_wrap.o)
+                0x00000000000642a0                mbedtls_rsa_alt_info
+                0x0000000000064300                mbedtls_ecdsa_info
+                0x0000000000064360                mbedtls_eckeydh_info
+                0x00000000000643c0                mbedtls_eckey_info
+                0x0000000000064420                mbedtls_rsa_info
+ .data.rel.ro.local
+                0x0000000000064480     0x1640 ../lib/libmbedcrypto.a(cipher_wrap.o)
+                0x0000000000064480                mbedtls_cipher_definitions
+ .data.rel.ro.local
+                0x0000000000065ac0      0xce0 ../lib/libmbedcrypto.a(oid.o)
+ .data.rel.ro.local
+                0x00000000000667a0      0x150 ../lib/libmbedx509.a(x509_crt.o)
+ *fill*         0x00000000000668f0       0x10 
+ .data.rel.ro.local
+                0x0000000000066900      0x3a0 ../lib/libmbedx509.a(x509_create.o)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000066ca0        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .data.rel.ro   0x0000000000066ca0      0x118 ../lib/libmbedcrypto.a(md_wrap.o)
+                0x0000000000066ca0                mbedtls_sha1_info
+                0x0000000000066d00                mbedtls_ripemd160_info
+                0x0000000000066d60                mbedtls_md5_info
+
+.dynamic        0x0000000000066db8      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000066db8      0x210 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000066db8                _DYNAMIC
+
+.got            0x0000000000066fc8       0x30
+ *(.got)
+ .got           0x0000000000066fc8       0x30 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000067fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000067000      0x290
+ *(.got.plt)
+ .got.plt       0x0000000000067000      0x290 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000067000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000672a0      0x968
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000672a0        0x4 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000672a0                data_start
+                0x00000000000672a0                __data_start
+ .data          0x00000000000672a4        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+ .data          0x00000000000672a4        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+ *fill*         0x00000000000672a4        0x4 
+ .data.rel.local
+                0x00000000000672a8        0x8 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+                0x00000000000672a8                __dso_handle
+ *fill*         0x00000000000672b0       0x10 
+ .data          0x00000000000672c0      0x660 /tmp/ccSJt3NP.o
+ .data.rel.local
+                0x0000000000067920      0x228 /tmp/ccSJt3NP.o
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(aes.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(aesni.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(base64.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(bignum.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(ctr_drbg.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(ecdh.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(ecdsa.o)
+ .data          0x0000000000067b48        0x0 ../lib/libmbedcrypto.a(ecp.o)
+ .data          0x0000000000067b48       0x20 ../lib/libmbedcrypto.a(ecp_curves.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(entropy.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(entropy_poll.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(gcm.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(hmac_drbg.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(md.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(md_wrap.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(pk.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(pk_wrap.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(pkparse.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(pkwrite.o)
+ .data          0x0000000000067b68        0x0 ../lib/libmbedcrypto.a(platform_util.o)
+ .data.rel      0x0000000000067b68        0x8 ../lib/libmbedcrypto.a(platform_util.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(ripemd160.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(rsa.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(sha1.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(sha256.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(sha512.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(timing.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(asn1parse.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(asn1write.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(cipher.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(cipher_wrap.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(des.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(md5.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(oid.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(pem.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(pkcs12.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(pkcs5.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(rsa_internal.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(arc4.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(blowfish.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(camellia.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(ccm.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(chacha20.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(chachapoly.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedcrypto.a(poly1305.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(x509_crl.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(x509_crt.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(x509write_csr.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(x509.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(x509_create.o)
+ .data          0x0000000000067b70        0x0 ../lib/libmbedx509.a(certs.o)
+ *fill*         0x0000000000067b70       0x10 
+ .data.rel.local
+                0x0000000000067b80       0x88 ../lib/libmbedx509.a(certs.o)
+                0x0000000000067b80                mbedtls_test_cas_der
+                0x0000000000067ba0                mbedtls_test_cas
+                0x0000000000067bc0                mbedtls_test_cli_crt
+                0x0000000000067bc8                mbedtls_test_cli_pwd
+                0x0000000000067bd0                mbedtls_test_cli_key
+                0x0000000000067bd8                mbedtls_test_srv_crt
+                0x0000000000067be0                mbedtls_test_srv_pwd
+                0x0000000000067be8                mbedtls_test_srv_key
+                0x0000000000067bf0                mbedtls_test_ca_crt
+                0x0000000000067bf8                mbedtls_test_ca_pwd
+                0x0000000000067c00                mbedtls_test_ca_key
+ .data          0x0000000000067c08        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+ .data          0x0000000000067c08        0x0 //usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000067c08        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+ .data          0x0000000000067c08        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000067c08        0x0
+ .tm_clone_table
+                0x0000000000067c08        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+ .tm_clone_table
+                0x0000000000067c08        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000067c08                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000067c08                . = .
+                0x0000000000067c08                __bss_start = .
+
+.bss            0x0000000000067c20     0x9680
+ *(.dynbss)
+ .dynbss        0x0000000000067c20        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000067c20        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000067c20        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000067c20        0x1 /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+ *fill*         0x0000000000067c21       0x1f 
+ .bss           0x0000000000067c40     0x71e8 /tmp/ccSJt3NP.o
+                0x0000000000067c40                keymac
+                0x0000000000067c60                keymac2
+ *fill*         0x000000000006ee28       0x18 
+ .bss           0x000000000006ee40     0x2260 ../lib/libmbedcrypto.a(aes.o)
+ .bss           0x00000000000710a0        0x8 ../lib/libmbedcrypto.a(aesni.o)
+ .bss           0x00000000000710a8        0x0 ../lib/libmbedcrypto.a(base64.o)
+ .bss           0x00000000000710a8        0x0 ../lib/libmbedcrypto.a(bignum.o)
+ .bss           0x00000000000710a8        0x8 ../lib/libmbedcrypto.a(ctr_drbg.o)
+ .bss           0x00000000000710b0        0x0 ../lib/libmbedcrypto.a(ecdh.o)
+ .bss           0x00000000000710b0        0x0 ../lib/libmbedcrypto.a(ecdsa.o)
+ *fill*         0x00000000000710b0       0x10 
+ .bss           0x00000000000710c0       0x68 ../lib/libmbedcrypto.a(ecp.o)
+ .bss           0x0000000000071128        0x0 ../lib/libmbedcrypto.a(ecp_curves.o)
+ .bss           0x0000000000071128        0x0 ../lib/libmbedcrypto.a(entropy.o)
+ .bss           0x0000000000071128        0x0 ../lib/libmbedcrypto.a(entropy_poll.o)
+ .bss           0x0000000000071128        0x0 ../lib/libmbedcrypto.a(gcm.o)
+ .bss           0x0000000000071128        0x8 ../lib/libmbedcrypto.a(hmac_drbg.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(md.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(md_wrap.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(pk.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(pk_wrap.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(pkparse.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(pkwrite.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(platform_util.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(ripemd160.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(rsa.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(sha1.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(sha256.o)
+ .bss           0x0000000000071130        0x0 ../lib/libmbedcrypto.a(sha512.o)
+ .bss           0x0000000000071130        0x4 ../lib/libmbedcrypto.a(timing.o)
+                0x0000000000071130                mbedtls_timing_alarmed
+ .bss           0x0000000000071134        0x0 ../lib/libmbedcrypto.a(asn1parse.o)
+ .bss           0x0000000000071134        0x0 ../lib/libmbedcrypto.a(asn1write.o)
+ .bss           0x0000000000071134        0x4 ../lib/libmbedcrypto.a(cipher.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(cipher_wrap.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(des.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(md5.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(oid.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(pem.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(pkcs12.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(pkcs5.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(rsa_internal.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(arc4.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(blowfish.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(camellia.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(ccm.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(chacha20.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(chachapoly.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedcrypto.a(poly1305.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(x509_crl.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(x509_crt.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(x509write_csr.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(x509.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(x509_create.o)
+ .bss           0x0000000000071138        0x0 ../lib/libmbedx509.a(certs.o)
+ .bss           0x0000000000071138        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000071138        0x0 //usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000071138        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+ .bss           0x0000000000071138        0x0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+ *fill*         0x0000000000071138        0x8 
+ COMMON         0x0000000000071140       0x70 /tmp/ccSJt3NP.o
+                0x0000000000071140                tst_sto_asym_priv_key
+                0x0000000000071180                tst_sto_asym_pub_key
+ *fill*         0x00000000000711b0       0x10 
+ COMMON         0x00000000000711c0       0xdc ../lib/libmbedcrypto.a(cipher_wrap.o)
+                0x00000000000711c0                mbedtls_cipher_supported
+                0x00000000000712a0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000007129c        0x4 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000000712a0                . = ALIGN (0x8)
+                0x00000000000712a0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000000732a0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000000732a0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000000732a0                . = ALIGN (0x8)
+                0x00000000000732a0                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x00000000000732a0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x1c
+ *(.comment)
+ .comment       0x0000000000000000       0x1c /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o
+                                         0x1d (size before relaxing)
+ .comment       0x000000000000001c       0x1d /tmp/ccSJt3NP.o
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(aes.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(aesni.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(base64.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(bignum.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ctr_drbg.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ecdh.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ecdsa.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ecp.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ecp_curves.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(entropy.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(entropy_poll.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(gcm.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(hmac_drbg.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(md.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(md_wrap.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pk.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pk_wrap.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pkparse.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pkwrite.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(platform_util.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ripemd160.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(rsa.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(sha1.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(sha256.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(sha512.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(timing.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(asn1parse.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(asn1write.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(cipher.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(cipher_wrap.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(des.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(md5.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(oid.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pem.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pkcs12.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(pkcs5.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(rsa_internal.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(arc4.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(blowfish.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(camellia.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(ccm.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(chacha20.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(chachapoly.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedcrypto.a(poly1305.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(x509_crl.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(x509_crt.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(x509write_csr.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(x509.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(x509_create.o)
+ .comment       0x000000000000001c       0x1d ../lib/libmbedx509.a(certs.o)
+ .comment       0x000000000000001c       0x1d /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccSJt3NP.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x28bf
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x28bf /tmp/ccSJt3NP.o
+
+.debug_abbrev   0x0000000000000000      0x2e5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2e5 /tmp/ccSJt3NP.o
+
+.debug_line     0x0000000000000000     0x183e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x183e /tmp/ccSJt3NP.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x100d
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x100d /tmp/ccSJt3NP.o
+                                       0x10da (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(tst elf64-x86-64)

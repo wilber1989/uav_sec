@@ -1,0 +1,12 @@
+软件密码模块：
+	目录说明：include lib src ：本项目源码
+              其他：gmssl 和 mbedtls 源码
+	编译： 在src下:
+              1.cmake .    ;得到makefile
+              2.make       ;得到libinitso.so libvccrypt.so
+              3.编译测试demo   ./maketst.sh    得到测试demo:tst
+	静态库来源： mbedtls_2_16.6-apache , gmssl
+	测试方法: 1. 准备测试文件（证书，密钥，待测试文件等）
+	          2. 编译，执行测试。
+	          3. 压力测试： main.c 中，放开AUTOTEST宏
+	         
